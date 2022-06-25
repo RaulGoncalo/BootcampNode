@@ -10,4 +10,4 @@ function subtracao(a, b){
 
 
 //modelo de exportação default 
-module.exports = {soma, subtracao, teste}; 
+export default {soma, subtracao, teste}; 

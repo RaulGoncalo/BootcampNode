@@ -1,5 +1,5 @@
-const operacoes = require('./operacoes.js');
-const multiplicacao = require('./operacoes2.js');
+import operacoes from './operacoes.js';
+import multiplicacao from './operacoes2.js';
 
 console.log(operacoes.teste)
 console.log(operacoes.soma(4, 5));
