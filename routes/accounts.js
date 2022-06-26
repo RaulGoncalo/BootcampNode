@@ -1,7 +1,5 @@
 import express from 'express';
-import { appendFile, promises as fs } from 'fs';
-
-global.fileName = "accounts.json";
+import { promises as fs } from 'fs';
 
 const router = express.Router();
 const { readFile, writeFile } = fs;
@@ -22,6 +20,8 @@ router.post('/', async (req, res, next) => {
 
                 await writeFile(global.fileName, JSON.stringify(data, null, 2));
                 res.status(200).send(account);
+
+                logger.info(`${req.method} ${req.baseUrl} User: ${account.id} - criado`);
             } catch (erro) {
                 next(erro);
             }
@@ -35,6 +35,9 @@ router.post('/', async (req, res, next) => {
                 await writeFile(global.fileName, JSON.stringify(data, null, 2));
 
                 res.status(200).send(account);
+
+
+                logger.info(`${req.method} ${req.baseUrl} User: 1 - criado`);
             } catch (erro) {
                 next(erro);
             }
@@ -44,10 +47,13 @@ router.post('/', async (req, res, next) => {
     }
 });
 
-router.get("/", async (_, res, next) => {
+router.get("/", async (req, res, next) => {
     try {
         const data = JSON.parse(await readFile(global.fileName));
-        res.send(data)
+        res.send(data);
+
+
+        logger.info(`${req.method} ${req.baseUrl}`)
     } catch (erro) {
         next(erro);
     }
@@ -61,8 +67,12 @@ router.get("/:id", async (req, res, next) => {
 
         if (accountSelected) {
             res.send(accountSelected)
+
+            logger.info(`${req.method} ${req.baseUrl} - User: ${req.params.id} - busca de informações`);
         } else {
-            res.send("Não encontrado")
+            res.send("Não encontrado");
+
+            logger.warn(`${req.method} ${req.baseUrl} - User: ${req.params.id} - Não encontrado`);
         }
 
     } catch (erro) {
@@ -80,12 +90,18 @@ router.delete("/:id", async (req, res, next) => {
             try {
                 await writeFile(fileName, JSON.stringify(data, null, 2));
 
-                res.status(200).send({ message: "Deletado com sucesso" })
+                res.status(200).send({ message: "Deletado com sucesso" });
+
+
+
+                logger.info(`${req.method} ${req.baseUrl} - User: ${req.params.id} - deletado`);
             } catch (erro) {
-                rnext(erro);
+                next(erro);
             }
         } else {
-            res.send("Não encontrado")
+            res.send("Não encontrado");
+
+            logger.warn(`${req.method} ${req.baseUrl} - User: ${req.params.id} - Não encontrado`);
         }
 
     } catch (erro) {
@@ -114,12 +130,19 @@ router.put("/", async (req, res, next) => {
             try {
                 await writeFile(fileName, JSON.stringify(data, null, 2));
 
-                res.status(200).send({ message: "Atualizado com sucesso" })
+                res.status(200).send({ message: "Atualizado com sucesso" });
+
+
+
+                
+                logger.info(`${req.method} ${req.baseUrl} - User: ${account.id} - informações atualizadas`);
             } catch (erro) {
                 next(erro);
             }
         } else {
-            res.send("Não encontrado")
+            res.send("Não encontrado");
+
+            logger.warn(`${req.method} ${req.baseUrl} - User: ${account.id} - Não encontrado`);
         }
     } catch (erro) {
         next(erro);
@@ -147,12 +170,18 @@ router.patch("/upadateBalance", async (req, res, next) => {
             try {
                 await writeFile(fileName, JSON.stringify(data, null, 2));
 
-                res.status(200).send({ message: "Saldo com sucesso"})
+                res.status(200).send({ message: "Saldo atualizado com sucesso" });
+
+
+
+                logger.info(`${req.method} ${req.baseUrl} - User: ${account.id} - saldo atualizado`);
             } catch (erro) {
                 next(erro);
             }
         } else {
-            res.send("Não encontrado")
+            res.send("Não encontrado");
+
+            logger.warn(`${req.method} ${req.baseUrl} - User: ${account.id} - Não encontrado`);
         }
     } catch (erro) {
         next(erro);
@@ -160,9 +189,9 @@ router.patch("/upadateBalance", async (req, res, next) => {
 });
 
 
-router.use((erro, req, res, next) =>{
-    console.log(erro)
-    res.status(400).send({ error: erro.message })
+router.use((erro, req, res, next) => {
+    logger.error(`${req.method} ${req.baseUrl} ${erro.message}`);
+    res.status(400).send({ error: erro.message });
 });
 
 export default router;
