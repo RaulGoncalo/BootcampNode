@@ -6,7 +6,7 @@ global.fileName = "accounts.json";
 const router = express.Router();
 const { readFile, writeFile } = fs;
 
-router.post('/', async (req, res) => {
+router.post('/', async (req, res, next) => {
     try {
         let account = req.body;
 
@@ -23,7 +23,7 @@ router.post('/', async (req, res) => {
                 await writeFile(global.fileName, JSON.stringify(data, null, 2));
                 res.status(200).send(account);
             } catch (erro) {
-                res.status(400).send({ error: erro.message });
+                next(erro);
             }
 
         } else {
@@ -36,24 +36,24 @@ router.post('/', async (req, res) => {
 
                 res.status(200).send(account);
             } catch (erro) {
-                res.status(400).send({ error: erro.message });
+                next(erro);
             }
         }
     } catch (erro) {
-        res.status(400).send({ error: erro.message });
+        next(erro);
     }
 });
 
-router.get("/", async (_, res) => {
+router.get("/", async (_, res, next) => {
     try {
         const data = JSON.parse(await readFile(global.fileName));
         res.send(data)
     } catch (erro) {
-        res.status(400).send({ error: erro.message });
+        next(erro);
     }
 });
 
-router.get("/:id", async (req, res) => {
+router.get("/:id", async (req, res, next) => {
     try {
         const data = JSON.parse(await readFile(global.fileName));
 
@@ -66,11 +66,11 @@ router.get("/:id", async (req, res) => {
         }
 
     } catch (erro) {
-        res.status(400).send({ error: erro.message });
+        next(erro);
     }
 });
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", async (req, res, next) => {
     try {
         let data = JSON.parse(await readFile(global.fileName));
 
@@ -82,19 +82,19 @@ router.delete("/:id", async (req, res) => {
 
                 res.status(200).send({ message: "Deletado com sucesso" })
             } catch (erro) {
-                res.status(400).send({ error: erro.message });
+                rnext(erro);
             }
         } else {
             res.send("Não encontrado")
         }
 
     } catch (erro) {
-        res.status(400).send({ error: erro.message });
+        next(erro);
     }
 });
 
 //atualizar os recursos de forma integrais
-router.put("/", async (req, res) => {
+router.put("/", async (req, res, next) => {
     let account = req.body;
 
     try {
@@ -116,18 +116,18 @@ router.put("/", async (req, res) => {
 
                 res.status(200).send({ message: "Atualizado com sucesso" })
             } catch (erro) {
-                res.status(400).send({ error: erro.message });
+                next(erro);
             }
         } else {
             res.send("Não encontrado")
         }
     } catch (erro) {
-        res.status(400).send({ error: erro.message });
+        next(erro);
     }
 });
 
 //atualiza os recursos de forma parciais 
-router.patch("/upadateBalance", async (req, res) => {
+router.patch("/upadateBalance", async (req, res, next) => {
     let account = req.body;
 
     try {
@@ -149,15 +149,20 @@ router.patch("/upadateBalance", async (req, res) => {
 
                 res.status(200).send({ message: "Saldo com sucesso"})
             } catch (erro) {
-                res.status(400).send({ error: erro.message });
+                next(erro);
             }
         } else {
             res.send("Não encontrado")
         }
     } catch (erro) {
-        res.status(400).send({ error: erro.message });
+        next(erro);
     }
 });
 
+
+router.use((erro, req, res, next) =>{
+    console.log(erro)
+    res.status(400).send({ error: erro.message })
+});
 
 export default router;
