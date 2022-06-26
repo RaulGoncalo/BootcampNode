@@ -8,13 +8,17 @@ router.post('/', async (req, res, next) => {
     try {
         let account = req.body;
 
+        if(!account.name || account.balance === null || account.balance === "" || account.balance === undefined){
+            throw new Error("Nome e saldo são obrigatórios")
+        };
+
         const data = JSON.parse(await readFile(global.fileName));
 
         if (data.accounts.length > 0) {
             try {
                 let lastId = data.accounts[data.accounts.length - 1].id;
 
-                account = { id: ++lastId, ...account };
+                account = { id: ++lastId, name: account.name, balance: account.balance };
 
                 data.accounts.push(account);
 
@@ -28,7 +32,7 @@ router.post('/', async (req, res, next) => {
 
         } else {
             try {
-                account = { id: 1, ...account };
+                account = { id: 1, name: account.name, balance: account.balance };
 
                 data.accounts.push(account);
 
@@ -70,9 +74,7 @@ router.get("/:id", async (req, res, next) => {
 
             logger.info(`${req.method} ${req.baseUrl} - User: ${req.params.id} - busca de informações`);
         } else {
-            res.send("Não encontrado");
-
-            logger.warn(`${req.method} ${req.baseUrl} - User: ${req.params.id} - Não encontrado`);
+            throw new Error("Registro não encontrado");
         }
 
     } catch (erro) {
@@ -99,9 +101,7 @@ router.delete("/:id", async (req, res, next) => {
                 next(erro);
             }
         } else {
-            res.send("Não encontrado");
-
-            logger.warn(`${req.method} ${req.baseUrl} - User: ${req.params.id} - Não encontrado`);
+            throw new Error("Registro não encontrado");
         }
 
     } catch (erro) {
@@ -115,6 +115,10 @@ router.put("/", async (req, res, next) => {
 
     try {
         let data = JSON.parse(await readFile(global.fileName));
+
+        if(!account.name || account.balance === null || account.balance === "" || account.balance === undefined){
+            throw new Error("Nome e saldo são obrigatórios")
+        };
 
         if (data.accounts.find(item => item.id === account.id)) {
             data.accounts.map((item, index) => {
@@ -132,17 +136,13 @@ router.put("/", async (req, res, next) => {
 
                 res.status(200).send({ message: "Atualizado com sucesso" });
 
-
-
                 
                 logger.info(`${req.method} ${req.baseUrl} - User: ${account.id} - informações atualizadas`);
             } catch (erro) {
                 next(erro);
             }
         } else {
-            res.send("Não encontrado");
-
-            logger.warn(`${req.method} ${req.baseUrl} - User: ${account.id} - Não encontrado`);
+            throw new Error("Registro não encontrado");
         }
     } catch (erro) {
         next(erro);
@@ -155,6 +155,10 @@ router.patch("/upadateBalance", async (req, res, next) => {
 
     try {
         let data = JSON.parse(await readFile(global.fileName));
+
+        if(!account.id || account.balance === null || account.balance === "" || account.balance === undefined){
+            throw new Error("ID e saldo são obrigatórios")
+        };
 
         if (data.accounts.find(item => item.id === account.id)) {
             data.accounts.map((item, index) => {
@@ -179,9 +183,7 @@ router.patch("/upadateBalance", async (req, res, next) => {
                 next(erro);
             }
         } else {
-            res.send("Não encontrado");
-
-            logger.warn(`${req.method} ${req.baseUrl} - User: ${account.id} - Não encontrado`);
+            throw new Error("Registro não encontrado");
         }
     } catch (erro) {
         next(erro);
