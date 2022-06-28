@@ -1,7 +1,7 @@
-# BootcampNode.js 
-Bootcamp Desenvolvedor Node.js da IGTI
+# Bootcamp Desenvolvedor Node.js da IGTI
+Primeiro teste pratico durante o "Modulo 1" do bootcamp
 
-Enunciado do teste pratico durante o "Modulo 1" do bootcamp;
+
 
 Os execicios consistiam em extrair informações pertinentes ao arquivo car-list.json, que contia um array de objtos com 
 marca (brand) com os respectivos modelos (models):
