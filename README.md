@@ -1,4 +1,5 @@
-# Bootcamp Desenvolvedor Node.js da IGTI
+# Bootcamp Desenvolvedor Node.js da XPE
+
 Primeiro teste pratico durante o "Modulo 1" do bootcamp
 
 
