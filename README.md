@@ -1,5 +1,5 @@
-# BootcampNode
-Bootcamp da IGTI sobre node.js
+# BootcampNode.js 
+Bootcamp Desenvolvedor Node.js da IGTI
 
 Enunciado do teste pratico durante o "Modulo 1" do bootcamp;
 
