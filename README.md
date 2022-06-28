@@ -10,5 +10,5 @@ marca (brand) com os respectivos modelos (models):
   "models":["x", "y", "z"]
 }
 
-Abaixo enunciado completo:
+Enunciado completo:
 [Enunciado do Trabalho Prático - Módulo 1 - Desenvolvedor(a) NODE.JS.pdf](https://github.com/RaulGoncalo/BootcampNode/files/8996672/Enunciado.do.Trabalho.Pratico.-.Modulo.1.-.Desenvolvedor.a.NODE.JS.pdf)
