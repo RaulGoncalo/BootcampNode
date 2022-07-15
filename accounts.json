@@ -1,0 +1,65 @@
+{
+  "nextId": 16,
+  "accounts": [
+    {
+      "id": 3,
+      "name": "Bianca ferreira",
+      "balance": 3000
+    },
+    {
+      "id": 4,
+      "name": "Alice",
+      "balance": 1000.5
+    },
+    {
+      "id": 5,
+      "name": "Daniel",
+      "balance": 1000.5
+    },
+    {
+      "id": 6,
+      "name": "Gabriel",
+      "balance": 1000.5
+    },
+    {
+      "id": 7,
+      "name": "Gabriel",
+      "balance": 1000.5
+    },
+    {
+      "id": 8,
+      "name": "Gabriel",
+      "balance": 1000.5
+    },
+    {
+      "id": 9,
+      "name": "Gabriel",
+      "balance": 1000.5
+    },
+    {
+      "id": 10,
+      "name": "Gabriel",
+      "balance": 10000
+    },
+    {
+      "id": 11,
+      "name": "Raul",
+      "balance": 0
+    },
+    {
+      "id": 12,
+      "name": "Raul silva",
+      "balance": 46545156
+    },
+    {
+      "id": 13,
+      "name": "Gabriel silva",
+      "balance": 15615646
+    },
+    {
+      "id": 14,
+      "name": "Jão Alves",
+      "balance": 1000
+    }
+  ]
+}

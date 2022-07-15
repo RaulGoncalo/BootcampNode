@@ -2,8 +2,8 @@ import express from 'express';
 import accountsRouter from './routes/accountsRouters.js';
 import { promises as fs } from 'fs'
 import winston from 'winston';
-import AccountsService from './services/accountsServices.js';
 import Schema from './schema/index.js';
+import basicAuth from 'express-basic-auth';
 
 //buildSchema serve para montar o "schema", ou seja modelar as entidades definindo os tipos;
 import { buildSchema } from 'graphql';
@@ -81,7 +81,49 @@ const root = {
 const app = express();
 app.use(express.json());
 
-app.use("/account", accountsRouter);
+
+
+const getRole = (username) =>{
+    if(username == 'admin'){
+        return 'admin'
+    }else if(username == 'raul'){
+        return 'role1'
+    }
+}
+
+const authorize = (...allwoed) =>{
+
+
+    const isAllwoed = role => allwoed.indexOf(role) > -1;
+
+    return (req, res, next) =>{
+        if(req.auth.user){
+            const role = getRole(req.auth.user);
+
+            if(isAllwoed(role)){
+                next()
+            }else{
+                res.status(401).send('Role not allwoed')
+            }
+        }else{
+            res.status(403).send("User not found");
+        }
+    }
+}
+
+app.use(basicAuth({
+    authorizer: (username, password) => {
+        const userMatches = basicAuth.safeCompare(username, 'admin');
+        const passwordMatches = basicAuth.safeCompare(password, 'admin');
+        
+        const user2Matches = basicAuth.safeCompare(username, 'angelo');
+        const password2Matches = basicAuth.safeCompare(password, '1234');
+
+        return userMatches && passwordMatches || user2Matches && password2Matches;
+    }
+}))
+
+app.use("/account", authorize('admin', 'role1') ,accountsRouter);
 
 app.use('/graphql', graphqlHTTP({
     schema: Schema,

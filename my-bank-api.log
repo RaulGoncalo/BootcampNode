@@ -1,0 +1,218 @@
+2022-06-26T19:08:11.070Z [my-bank-api] info: API_EXECUTANDO: File criado
+2022-06-26T19:08:14.743Z [my-bank-api] info: POST /account User: 1 - criado
+2022-06-26T19:08:27.874Z [my-bank-api] info: POST /account User: 2 - criado
+2022-06-26T19:08:32.551Z [my-bank-api] info: GET /account
+2022-06-26T19:08:39.003Z [my-bank-api] error: PUT /account Registro não encontrado
+2022-06-26T19:08:48.193Z [my-bank-api] error: PUT /account Registro não encontrado
+2022-06-26T19:08:55.086Z [my-bank-api] info: PUT /account - User: 1 - informações atualizadas
+2022-06-26T19:09:31.492Z [my-bank-api] info: API_EXECUTANDO
+2022-06-26T19:09:32.925Z [my-bank-api] error: PUT /account Nome e saldo são obrigatórios
+2022-06-26T19:09:52.563Z [my-bank-api] error: PUT /account Nome e saldo são obrigatórios
+2022-06-26T19:09:59.181Z [my-bank-api] info: PUT /account - User: 1 - informações atualizadas
+2022-06-26T19:10:37.835Z [my-bank-api] info: API_EXECUTANDO
+2022-06-26T19:11:41.749Z [my-bank-api] info: API_EXECUTANDO
+2022-06-28T23:58:46.301Z [my-bank-api] info: API_EXECUTANDO
+2022-06-28T23:59:03.533Z [my-bank-api] info: GET /account
+2022-06-28T23:59:06.940Z [my-bank-api] error: GET /account Registro não encontrado
+2022-06-28T23:59:10.974Z [my-bank-api] info: GET /account - User: 1 - busca de informações
+2022-06-28T23:59:25.348Z [my-bank-api] info: POST /account User: 3 - criado
+2022-06-28T23:59:31.335Z [my-bank-api] info: POST /account User: 4 - criado
+2022-06-28T23:59:35.155Z [my-bank-api] info: GET /account - User: 1 - busca de informações
+2022-06-28T23:59:40.696Z [my-bank-api] info: GET /account
+2022-06-28T23:59:56.645Z [my-bank-api] info: API_EXECUTANDO
+2022-06-28T23:59:59.687Z [my-bank-api] info: GET /account
+2022-06-29T00:00:05.584Z [my-bank-api] info: PUT /account - User: 1 - informações atualizadas
+2022-06-29T00:00:14.998Z [my-bank-api] info: GET /account
+2022-06-29T00:00:23.855Z [my-bank-api] error: DELETE /account Registro não encontrado
+2022-06-29T00:00:27.675Z [my-bank-api] info: DELETE /account - User: 1 - deletado
+2022-06-29T00:00:33.850Z [my-bank-api] info: GET /account
+2022-06-29T00:00:35.849Z [my-bank-api] info: GET /account
+2022-06-29T00:00:43.227Z [my-bank-api] info: POST /account User: 5 - criado
+2022-06-29T00:00:47.992Z [my-bank-api] info: GET /account
+2022-06-29T00:00:56.728Z [my-bank-api] info: DELETE /account - User: 3 - deletado
+2022-06-29T00:01:00.397Z [my-bank-api] info: GET /account
+2022-06-29T00:01:27.138Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:07:24.336Z [my-bank-api] info: API_EXECUTANDO: File criado
+2022-06-29T00:08:47.819Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:09:11.222Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:12:35.910Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:13:27.774Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:13:44.969Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:13:53.262Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:14:04.836Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:14:58.768Z [my-bank-api] error: POST /account lastId is not defined
+2022-06-29T00:15:31.194Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:15:39.605Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:15:41.566Z [my-bank-api] info: POST /account User: NaN - criado
+2022-06-29T00:15:44.896Z [my-bank-api] info: POST /account User: NaN - criado
+2022-06-29T00:16:23.639Z [my-bank-api] error: POST /account ENOENT: no such file or directory, open 'C:\bootcampNode\programas\my-bank-api\accounts.json'
+2022-06-29T00:16:30.286Z [my-bank-api] info: API_EXECUTANDO: File criado
+2022-06-29T00:16:32.159Z [my-bank-api] info: POST /account User: NaN - criado
+2022-06-29T00:16:42.343Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:16:48.722Z [my-bank-api] info: POST /account User: 1 - criado
+2022-06-29T00:16:49.616Z [my-bank-api] info: POST /account User: 2 - criado
+2022-06-29T00:16:50.446Z [my-bank-api] info: POST /account User: 3 - criado
+2022-06-29T00:16:51.199Z [my-bank-api] info: POST /account User: 4 - criado
+2022-06-29T00:20:33.149Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:22:46.933Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:24:03.034Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:28:25.443Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:28:56.953Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:29:06.939Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:32:24.665Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:32:25.523Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:37:39.210Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:42:05.732Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:42:23.546Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:43:23.680Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:43:32.108Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:43:38.907Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:43:44.651Z [my-bank-api] info: POST /account User: 5 - criado
+2022-06-29T00:43:54.457Z [my-bank-api] error: PUT /account Cannot read properties of undefined (reading 'findIndex')
+2022-06-29T00:44:00.994Z [my-bank-api] info: GET /account
+2022-06-29T00:44:15.268Z [my-bank-api] info: API_EXECUTANDO: File criado
+2022-06-29T00:44:19.248Z [my-bank-api] info: GET /account
+2022-06-29T00:44:23.767Z [my-bank-api] info: POST /account User: 1 - criado
+2022-06-29T00:44:27.867Z [my-bank-api] info: GET /account
+2022-06-29T00:44:38.909Z [my-bank-api] info: POST /account User: 2 - criado
+2022-06-29T00:44:46.614Z [my-bank-api] info: GET /account
+2022-06-29T00:44:50.556Z [my-bank-api] info: GET /account - User: 2 - busca de informações
+2022-06-29T00:45:05.484Z [my-bank-api] error: PUT /account Cannot read properties of undefined (reading 'findIndex')
+2022-06-29T00:45:08.232Z [my-bank-api] error: PUT /account Cannot read properties of undefined (reading 'findIndex')
+2022-06-29T00:45:19.685Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:45:25.547Z [my-bank-api] error: PUT /account Cannot read properties of undefined (reading 'findIndex')
+2022-06-29T00:45:49.098Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:45:51.053Z [my-bank-api] error: PUT /account Cannot read properties of undefined (reading 'findIndex')
+2022-06-29T00:46:04.976Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:46:51.320Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:46:54.428Z [my-bank-api] error: PUT /account Registro não encontrado
+2022-06-29T00:46:59.782Z [my-bank-api] info: GET /account
+2022-06-29T00:47:09.175Z [my-bank-api] info: GET /account - User: 2 - busca de informações
+2022-06-29T00:47:11.854Z [my-bank-api] info: GET /account - User: 1 - busca de informações
+2022-06-29T00:47:17.499Z [my-bank-api] error: PUT /account Registro não encontrado
+2022-06-29T00:47:52.647Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:48:04.007Z [my-bank-api] info: PATCH /account - User: 1 - saldo atualizado
+2022-06-29T00:48:09.005Z [my-bank-api] info: PATCH /account - User: 1 - saldo atualizado
+2022-06-29T00:48:13.528Z [my-bank-api] error: PUT /account Registro não encontrado
+2022-06-29T00:48:33.084Z [my-bank-api] info: GET /account
+2022-06-29T00:48:34.843Z [my-bank-api] info: GET /account
+2022-06-29T00:48:43.039Z [my-bank-api] error: PATCH /account Registro não encontrado
+2022-06-29T00:48:44.946Z [my-bank-api] error: PATCH /account Registro não encontrado
+2022-06-29T00:48:55.166Z [my-bank-api] error: PATCH /account Registro não encontrado
+2022-06-29T00:48:58.311Z [my-bank-api] error: PUT /account Registro não encontrado
+2022-06-29T00:49:04.939Z [my-bank-api] info: GET /account - User: 2 - busca de informações
+2022-06-29T00:49:28.173Z [my-bank-api] info: GET /account
+2022-06-29T00:49:42.804Z [my-bank-api] info: PUT /account - User: 1 - informações atualizadas
+2022-06-29T00:49:49.262Z [my-bank-api] info: GET /account
+2022-06-29T00:50:36.207Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:50:40.369Z [my-bank-api] info: PUT /account - User: 1 - informações atualizadas
+2022-06-29T00:50:56.703Z [my-bank-api] info: PUT /account - User: 2 - informações atualizadas
+2022-06-29T00:50:59.755Z [my-bank-api] info: GET /account
+2022-06-29T00:51:11.840Z [my-bank-api] info: POST /account User: 3 - criado
+2022-06-29T00:51:15.231Z [my-bank-api] info: GET /account
+2022-06-29T00:51:17.842Z [my-bank-api] error: DELETE /account req is not defined
+2022-06-29T00:51:34.372Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:51:35.591Z [my-bank-api] info: DELETE /account - User: 3 - deletado
+2022-06-29T00:51:38.809Z [my-bank-api] info: GET /account
+2022-06-29T00:51:42.237Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T00:56:41.533Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:03:28.765Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:03:36.113Z [my-bank-api] info: GET /account
+2022-06-29T01:05:36.445Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:05:59.035Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:07:06.620Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:07:09.150Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:07:37.242Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:07:44.929Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:09:46.751Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:13:59.871Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:14:04.718Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:15:21.029Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:15:56.833Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:16:19.960Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:17:35.782Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:17:52.114Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:19:48.577Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:20:11.366Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:22:19.841Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T01:22:32.568Z [my-bank-api] info: GET /account
+2022-06-29T01:22:36.240Z [my-bank-api] info: POST /account User: 4 - criado
+2022-06-29T01:22:39.019Z [my-bank-api] error: PUT /account Cannot read properties of undefined (reading 'findIndex')
+2022-06-29T01:22:44.576Z [my-bank-api] error: PATCH /account accounts.find is not a function
+2022-06-29T01:22:48.341Z [my-bank-api] info: GET /account
+2022-06-29T01:22:51.798Z [my-bank-api] error: GET /account accounts.find is not a function
+2022-06-29T01:22:53.858Z [my-bank-api] error: GET /account accounts.find is not a function
+2022-06-29T01:23:27.689Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T20:58:32.136Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T21:00:04.133Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T21:00:11.935Z [my-bank-api] info: GET /account
+2022-06-29T21:00:12.834Z [my-bank-api] info: GET /account
+2022-06-29T21:00:38.583Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T21:42:14.366Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T21:48:52.964Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T21:49:48.505Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T21:49:58.474Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T21:50:02.315Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T21:57:46.920Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:00:47.128Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:04:36.339Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:08:04.324Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:08:13.542Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:08:23.333Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:09:03.491Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:09:57.616Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:10:10.293Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:13:37.326Z [my-bank-api] info: API_EXECUTANDO: File criado
+2022-06-29T22:15:23.587Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:16:14.691Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:17:24.979Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:23:41.247Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:25:36.959Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:28:18.846Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:28:53.594Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:29:35.180Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:31:21.329Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:31:32.368Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:36:52.882Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:37:03.247Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:41:14.161Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:41:45.907Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:42:06.560Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:42:24.722Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:42:28.183Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:45:20.737Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:51:48.801Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T22:51:51.106Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:15:42.881Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:18:11.842Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:28:30.666Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:35:29.362Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:35:56.946Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:37:18.912Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:39:10.202Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:45:19.569Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:46:34.475Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:47:12.370Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:47:54.651Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:48:38.573Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:50:27.929Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:50:34.035Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:51:12.272Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:52:01.472Z [my-bank-api] info: API_EXECUTANDO
+2022-06-29T23:52:34.506Z [my-bank-api] info: API_EXECUTANDO
+2022-06-30T21:33:36.886Z [my-bank-api] info: API_EXECUTANDO
+2022-07-11T23:18:54.485Z [my-bank-api] info: API_EXECUTANDO
+2022-07-11T23:19:41.009Z [my-bank-api] info: API_EXECUTANDO
+2022-07-11T23:19:41.964Z [my-bank-api] info: GET /account
+2022-07-11T23:19:43.165Z [my-bank-api] info: GET /account
+2022-07-11T23:20:28.507Z [my-bank-api] info: GET /account
+2022-07-11T23:20:36.923Z [my-bank-api] info: API_EXECUTANDO
+2022-07-14T21:46:11.710Z [my-bank-api] info: API_EXECUTANDO
+2022-07-14T21:46:59.654Z [my-bank-api] info: GET /account
+2022-07-14T21:52:22.459Z [my-bank-api] info: API_EXECUTANDO
+2022-07-14T21:52:48.344Z [my-bank-api] info: GET /account
+2022-07-14T22:11:00.235Z [my-bank-api] info: GET /account
+2022-07-14T22:12:36.918Z [my-bank-api] info: API_EXECUTANDO
+2022-07-14T22:12:37.697Z [my-bank-api] info: GET /account
+2022-07-14T22:12:39.331Z [my-bank-api] info: GET /account
+2022-07-14T22:12:52.929Z [my-bank-api] info: GET /account
