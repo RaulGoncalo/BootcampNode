@@ -1,0 +1,65 @@
+2022-07-01T00:04:02.143Z [delivery-api] - info: POST /orders Order: 501 - criado
+2022-07-01T00:04:18.564Z [delivery-api] - info: POST /orders Order: 502 - criado
+2022-07-01T00:04:27.371Z [delivery-api] - error: GET /orders s is not defined
+2022-07-01T00:04:32.997Z [delivery-api] - error: GET /orders s is not defined
+2022-07-01T00:04:38.197Z [delivery-api] - info: POST /orders Order: 503 - criado
+2022-07-01T00:04:46.293Z [delivery-api] - info: POST /orders Order: 504 - criado
+2022-07-01T00:28:45.932Z [delivery-api] - error: PUT /orders ID, cliente, produto, valor e entregue são obrigatórios
+2022-07-01T00:29:21.902Z [delivery-api] - error: PUT /orders ID, cliente, produto, valor e entregue são obrigatórios
+2022-07-01T00:29:34.442Z [delivery-api] - error: PUT /orders data.find is not a function
+2022-07-01T00:36:41.196Z [delivery-api] - error: PUT /orders Item não encontrado
+2022-07-01T00:42:08.623Z [delivery-api] - error: PUT /orders Cannot read properties of undefined (reading 'indexOf')
+2022-07-01T00:48:56.690Z [delivery-api] - error: PUT /orders ID, cliente, produto, valor e entregue são obrigatórios
+2022-07-01T00:48:59.430Z [delivery-api] - error: PUT /orders ID, cliente, produto, valor e entregue são obrigatórios
+2022-07-02T20:40:26.323Z [delivery-api] - info: POST /orders Order: 505 - criado
+2022-07-02T20:56:17.338Z [delivery-api] - error: PUT /orders Produto não cadastrado
+2022-07-02T20:59:08.301Z [delivery-api] - error: PUT /orders ID, cliente, produto, valor e entregue são obrigatórios
+2022-07-02T21:01:58.399Z [delivery-api] - error: PUT /orders ID, cliente, produto e valor são obrigatórios
+2022-07-02T21:02:31.382Z [delivery-api] - error: PUT /orders Produto não cadastrado
+2022-07-02T21:05:21.115Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading 'findIndex')
+2022-07-02T21:05:39.250Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading '0')
+2022-07-02T21:05:44.246Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading '0')
+2022-07-02T21:25:54.142Z [delivery-api] - info: POST /orders Order: 506 - criado
+2022-07-02T21:26:53.703Z [delivery-api] - error: PATCH /orders id e entregue são obrigatórios
+2022-07-02T21:40:23.981Z [delivery-api] - error: DELETE /orders pos is not defined
+2022-07-02T21:46:47.946Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-02T22:00:54.521Z [delivery-api] - error: GET /orders OrdersServices is not a function
+2022-07-02T22:02:55.625Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading 'forEach')
+2022-07-02T22:03:42.245Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading 'forEach')
+2022-07-02T22:05:46.035Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading 'length')
+2022-07-02T22:07:09.777Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading 'length')
+2022-07-02T22:07:38.801Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading 'length')
+2022-07-02T22:18:03.206Z [delivery-api] - info: POST /orders Order: 501 - criado
+2022-07-03T13:30:52.927Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:31:40.726Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:32:58.284Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:33:32.004Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:33:34.985Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:34:03.138Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:34:51.077Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:34:55.228Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:34:56.137Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:35:00.648Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:35:40.107Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:36:25.658Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:38:51.610Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:39:05.266Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:39:06.899Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:39:18.717Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:39:40.134Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:40:22.088Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:41:58.029Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:43:04.078Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:43:14.666Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:44:01.076Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:44:10.499Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:44:57.459Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T13:48:23.944Z [delivery-api] - error: GET /orders ID não encontrado
+2022-07-03T14:12:22.604Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading 'produto')
+2022-07-03T14:12:23.895Z [delivery-api] - error: GET /orders Cannot read properties of undefined (reading 'produto')
+2022-07-03T14:12:57.906Z [delivery-api] - info: POST /orders Order: 502 - criado
+2022-07-03T20:16:28.575Z [delivery-api] - info: POST /orders Order: 503 - criado
+2022-07-03T20:17:17.488Z [delivery-api] - info: POST /orders Order: 504 - criado
+2022-07-03T20:22:44.854Z [delivery-api] - info: POST /orders Order: 501 - criado
+2022-07-03T20:25:30.908Z [delivery-api] - info: POST /orders Order: 502 - criado
+2022-07-03T20:27:04.979Z [delivery-api] - info: POST /orders Order: 501 - criado
