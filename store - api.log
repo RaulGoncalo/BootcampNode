@@ -1,0 +1,187 @@
+2022-07-21T00:19:18.447Z  [store-ai] error POST  - Nome, CPF, e-mail, telefone e endereço são obrigatórios
+2022-07-21T00:20:58.008Z  [store-ai] error POST  - Nome, CPF, e-mail, telefone e endereço são obrigatórios
+2022-07-21T00:21:13.265Z  [store-ai] error POST  - Nome, CPF, e-mail, telefone e endereço são obrigatórios
+2022-07-21T00:24:28.578Z  [store-ai] info POST /client - {"name":"Raul","email":"teste@gmail.com","cpf":"5656465465","phone":"156165166","address":"Rua X, 446"}
+2022-07-21T22:49:13.926Z  [store-ai] error POST  - null value in column "address" violates not-null constraint
+2022-07-21T22:49:39.871Z  [store-ai] error POST  - null value in column "address" violates not-null constraint
+2022-07-21T22:49:41.711Z  [store-ai] error POST  - null value in column "address" violates not-null constraint
+2022-07-21T22:50:31.992Z  [store-ai] error POST  - null value in column "address" violates not-null constraint
+2022-07-21T22:51:36.934Z  [store-ai] info POST /client - {"name":"Raul","cpf":"46494728812","phone":"16997108446","email":"raulgoncalo.98@gmail.com","address":"Rua Goias, n 384"}
+2022-07-21T22:56:14.940Z  [store-ai] info POST /client - {"name":"Bianca","cpf":"49728847900","phone":"16991280878","email":"biancaferreira@gmail.com","address":"Rua Goias, n 384"}
+2022-07-21T22:58:13.922Z  [store-ai] info POST /client - {"name":"Bianca","cpf":"49728847900","phone":"16991280878","email":"biancaferreira@gmail.com","address":"Rua Goias, n 384"}
+2022-07-21T23:01:08.242Z  [store-ai] info POST /client - {"name":"Bianca","cpf":"49728847900","phone":"16991280878","email":"biancaferreira@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T20:17:01.834Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:17:29.673Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:23:50.815Z  [store-ai] info GET /client - [object Object]
+2022-07-24T20:24:48.313Z  [store-ai] info GET /client - 7
+2022-07-24T20:24:50.064Z  [store-ai] info GET /client - 7
+2022-07-24T20:26:02.424Z  [store-ai] error GET  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
+2022-07-24T20:26:16.376Z  [store-ai] info GET /client - 7
+2022-07-24T20:26:18.284Z  [store-ai] info GET /client - 7
+2022-07-24T20:31:19.226Z  [store-ai] info GET /client - 7
+2022-07-24T20:31:29.872Z  [store-ai] info GET /client - 7
+2022-07-24T20:31:30.705Z  [store-ai] info GET /client - 7
+2022-07-24T20:31:57.442Z  [store-ai] info GET /client - 7
+2022-07-24T20:32:38.815Z  [store-ai] info GET /client - 7
+2022-07-24T20:32:53.743Z  [store-ai] info GET /client - 7
+2022-07-24T20:32:54.777Z  [store-ai] info GET /client - 7
+2022-07-24T20:32:55.886Z  [store-ai] info GET /client - 7
+2022-07-24T20:33:07.206Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:33:16.086Z  [store-ai] info GET /client - 7
+2022-07-24T20:33:59.204Z  [store-ai] info GET /client - 7
+2022-07-24T20:34:18.674Z  [store-ai] info GET /client - 7
+2022-07-24T20:34:35.791Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:35:46.838Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:35:50.508Z  [store-ai] info GET /client - 7
+2022-07-24T20:35:54.062Z  [store-ai] info GET /client - 8
+2022-07-24T20:36:12.644Z  [store-ai] info GET /client - 8
+2022-07-24T20:38:54.398Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:39:10.343Z  [store-ai] info POST /client - {"name":"Raul","cpf":"49728847900","phone":"16991280878","email":"raulsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T20:39:15.337Z  [store-ai] info GET /client - 9
+2022-07-24T20:39:30.257Z  [store-ai] error DELETE  - syntax error at or near "*"
+2022-07-24T20:39:46.187Z  [store-ai] info DELETE /client - 9
+2022-07-24T20:39:52.733Z  [store-ai] info GET /client - 9
+2022-07-24T20:39:55.734Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:39:57.898Z  [store-ai] info POST /client - {"name":"Raul","cpf":"49728847900","phone":"16991280878","email":"raulsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T20:40:01.115Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:46:18.528Z  [store-ai] info POST /client - {"name":"Raul","cpf":"49728847900","phone":"16991280878","email":"raulsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T20:49:29.244Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:49:31.542Z  [store-ai] info GET /client - 9
+2022-07-24T20:53:24.191Z  [store-ai] info GET /client - 9
+2022-07-24T20:53:29.639Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:53:32.038Z  [store-ai] info GET /client - 9
+2022-07-24T20:53:34.832Z  [store-ai] info DELETE /client - 9
+2022-07-24T20:53:46.244Z  [store-ai] info GET /client - 10
+2022-07-24T20:53:51.319Z  [store-ai] info DELETE /client - 10
+2022-07-24T20:53:53.333Z  [store-ai] info DELETE /client - 10
+2022-07-24T20:53:57.741Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:54:39.246Z  [store-ai] info DELETE /client - 10
+2022-07-24T20:54:47.961Z  [store-ai] info GET /client - 10
+2022-07-24T20:54:50.400Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:54:55.014Z  [store-ai] info DELETE /client - 10
+2022-07-24T20:56:02.574Z  [store-ai] info DELETE /client - 10
+2022-07-24T20:56:26.085Z  [store-ai] info DELETE /client - 7
+2022-07-24T20:56:38.511Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:57:26.211Z  [store-ai] info GET /client - todos clientes
+2022-07-24T20:57:28.674Z  [store-ai] info DELETE /client - 7
+2022-07-24T20:59:52.077Z  [store-ai] info DELETE /client - 7
+2022-07-24T21:00:33.825Z  [store-ai] info DELETE /client - 7
+2022-07-24T21:00:49.979Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:00:52.949Z  [store-ai] info DELETE /client - 7
+2022-07-24T21:02:01.967Z  [store-ai] info DELETE /client - 7
+2022-07-24T21:02:49.790Z  [store-ai] info DELETE /client - 7
+2022-07-24T21:02:51.444Z  [store-ai] info DELETE /client - 7
+2022-07-24T21:16:24.354Z  [store-ai] error PUT  - client_id, Nome, CPF, e-mail, telefone e endereço são obrigatórios
+2022-07-24T21:16:32.432Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:16:44.879Z  [store-ai] info POST /client - {"client_id":12,"name":"Raul Silva","cpf":"49728847900","phone":"16991280878","email":"raulsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T21:16:52.490Z  [store-ai] info POST /client - {"client_id":13,"name":"Raul Silva","cpf":"49728847900","phone":"16991280878","email":"raulsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T21:16:56.223Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:17:37.178Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:17:42.303Z  [store-ai] info DELETE /client - 13
+2022-07-24T21:17:45.956Z  [store-ai] info DELETE /client - 14
+2022-07-24T21:17:50.152Z  [store-ai] info DELETE /client - 12
+2022-07-24T21:17:52.751Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:17:59.003Z  [store-ai] error PUT  - client_id, Nome, CPF, e-mail, telefone e endereço são obrigatórios
+2022-07-24T21:18:01.145Z  [store-ai] error PUT  - client_id, Nome, CPF, e-mail, telefone e endereço são obrigatórios
+2022-07-24T21:18:58.445Z  [store-ai] error PUT  - clientRepositories.upadateClient is not a function
+2022-07-24T21:21:09.967Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:21:15.451Z  [store-ai] error PUT  - syntax error at or near "UPADATE"
+2022-07-24T21:22:13.646Z  [store-ai] error PUT  - could not determine data type of parameter $4
+2022-07-24T21:22:26.381Z  [store-ai] info POST /client - undefined
+2022-07-24T21:22:33.200Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:22:37.910Z  [store-ai] info POST /client - undefined
+2022-07-24T21:22:44.129Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:22:45.325Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:22:47.820Z  [store-ai] info POST /client - undefined
+2022-07-24T21:24:03.644Z  [store-ai] info POST /client - undefined
+2022-07-24T21:25:37.836Z  [store-ai] info POST /client - undefined
+2022-07-24T21:27:30.455Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:27:32.867Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:27:35.769Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:27:37.146Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:27:52.377Z  [store-ai] info POST /client - {"name":"Raul","cpf":"49728847900","phone":"16991280878","email":"raulsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T21:27:58.203Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:27:59.418Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:28:03.435Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:28:52.998Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:29:25.142Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:30:42.743Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:30:44.136Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:33:26.578Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:33:54.894Z  [store-ai] info PUT /client - undefined
+2022-07-24T21:36:53.443Z  [store-ai] info PUT /client - {"client_id":11,"name":"Raul Silva","cpf":"49728847900","phone":"16991280878","email":"raulsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T21:36:57.949Z  [store-ai] info GET /client - todos clientes
+2022-07-24T21:51:37.863Z  [store-ai] error POST  - Nome, CNPJ, e-mail, telefone e endereço são obrigatórios
+2022-07-24T21:52:51.775Z  [store-ai] info POST /supplier - {"name":"E eletronicos","cnpj":"49728847900","phone":"16991280878","email":"e.eletronicos@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T21:52:55.876Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-24T21:52:59.148Z  [store-ai] info GET /supplier - 10
+2022-07-24T21:53:03.062Z  [store-ai] info GET /supplier - 1
+2022-07-24T21:53:07.349Z  [store-ai] info PUT /supplier - {"supplier_id":1,"name":"E eletronicos LTDA","cnpj":"49728847900","phone":"16991280878","email":"e.eletronicos@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T21:53:12.189Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-24T21:53:20.797Z  [store-ai] info DELETE /supplier - 1
+2022-07-24T21:53:23.705Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-24T21:53:27.476Z  [store-ai] info GET /supplier - 1
+2022-07-24T21:53:30.885Z  [store-ai] info POST /supplier - {"name":"E eletronicos","cnpj":"49728847900","phone":"16991280878","email":"e.eletronicos@gmail.com","address":"Rua Goias, n 384"}
+2022-07-24T22:07:23.254Z  [store-ai] error POST  - Nome, descrição, value, estoque e suplier_id são obrigatórios
+2022-07-24T22:07:52.753Z  [store-ai] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-07-24T22:08:03.079Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-24T22:08:13.847Z  [store-ai] info POST /product - {"name":"Notebook","description":"notebook samsung","value":"1000","stock":"100","supplier_id":2}
+2022-07-24T22:08:21.519Z  [store-ai] info GET /product - todos productes
+2022-07-24T22:08:25.689Z  [store-ai] info GET /product - 1
+2022-07-24T22:08:28.482Z  [store-ai] info GET /product - 2
+2022-07-24T22:09:19.474Z  [store-ai] info POST /product - {"name":"Smatphone samsung","description":"Smatphone samsung","value":"3000","stock":"100","supplier_id":2}
+2022-07-24T22:09:33.627Z  [store-ai] error PUT  - product_id, Nome, descrição, value, estoque e supplier_id são obrigatórios
+2022-07-24T22:09:42.631Z  [store-ai] info GET /product - todos productes
+2022-07-24T22:10:02.008Z  [store-ai] error PUT  - column "suplier_id" of relation "products" does not exist
+2022-07-24T22:10:11.660Z  [store-ai] error PUT  - column "suplier_id" of relation "products" does not exist
+2022-07-24T22:10:18.148Z  [store-ai] info GET /product - todos productes
+2022-07-24T22:10:23.777Z  [store-ai] error PUT  - column "suplier_id" of relation "products" does not exist
+2022-07-24T22:12:23.181Z  [store-ai] info PUT /product - {"product_id":3,"supplier_id":2,"name":"Smatphone samsung galaxy","description":"Smatphone samsung","value":"3000","stock":100}
+2022-07-24T22:12:26.800Z  [store-ai] info GET /product - todos productes
+2022-07-24T22:12:33.486Z  [store-ai] info DELETE /product - 3
+2022-07-24T22:12:36.378Z  [store-ai] info GET /product - todos productes
+2022-07-24T22:12:39.809Z  [store-ai] info GET /product - 2
+2022-07-24T22:12:42.632Z  [store-ai] info POST /product - {"name":"Smatphone samsung","description":"Smatphone samsung","value":"3000","stock":"100","supplier_id":2}
+2022-07-24T22:12:45.407Z  [store-ai] info GET /product - todos productes
+2022-07-24T22:23:51.964Z  [store-ai] error POST  - Fornecedor não encontrado
+2022-07-24T22:23:58.201Z  [store-ai] error PUT  - Fornecedor não encontrado
+2022-07-24T22:25:26.107Z  [store-ai] error POST  - Nome, descrição, value, estoque e supplier_id são obrigatórios
+2022-07-24T22:25:51.022Z  [store-ai] error POST  - Supplier_id não encontrado
+2022-07-24T22:25:54.890Z  [store-ai] info POST /product - {"name":"Smartphone lg","description":"Smatphone lg","value":"2500","stock":"100","supplier_id":2}
+2022-07-24T22:25:58.070Z  [store-ai] info GET /product - todos productes
+2022-07-24T22:37:18.485Z  [store-ai] info GET /sale - todos salees
+2022-07-24T22:38:14.276Z  [store-ai] info GET /client - todos clientes
+2022-07-24T22:38:42.490Z  [store-ai] info GET /product - todos productes
+2022-07-24T22:39:02.608Z  [store-ai] error POST  - date/time field value out of range: "24/07/2022"
+2022-07-24T22:39:36.320Z  [store-ai] info POST /sale - {"value":1000,"date":"01/01/2022","client_id":8,"product_id":2}
+2022-07-24T22:39:59.304Z  [store-ai] error PUT  - Valor, data, client_id e product_id são obrigatórios
+2022-07-24T22:40:05.285Z  [store-ai] info GET /sale - todos salees
+2022-07-24T22:40:12.064Z  [store-ai] info GET /sale - 1
+2022-07-24T22:40:54.105Z  [store-ai] error PUT  - syntax error at or near "WHERE"
+2022-07-24T22:42:03.476Z  [store-ai] error PUT  - syntax error at or near "WHERE"
+2022-07-24T22:42:34.850Z  [store-ai] info GET /sale - todos salees
+2022-07-24T22:44:17.704Z  [store-ai] error PUT  - syntax error at or near "WHERE"
+2022-07-24T22:44:23.265Z  [store-ai] info PUT /sale - {"sale_id":1,"client_id":8,"product_id":2,"value":"900","date":"2022-01-01T03:00:00.000Z"}
+2022-07-24T22:44:29.984Z  [store-ai] info GET /sale - todos salees
+2022-07-24T23:01:53.270Z  [store-ai] error POST  - Product_id não existem
+2022-07-24T23:02:02.353Z  [store-ai] error POST  - Client_id não existem
+2022-07-24T23:09:03.763Z  [store-ai] error POST  - Client_id não existe. 
+2022-07-24T23:09:08.197Z  [store-ai] error POST  - Client_id não existe. Product_id não existe. 
+2022-07-24T23:11:21.647Z  [store-ai] info GET /sale - todos salees
+2022-07-24T23:18:56.927Z  [store-ai] info GET /product - todos productes
+2022-07-24T23:19:23.018Z  [store-ai] error POST  - Produto sem estoque
+2022-07-24T23:19:26.927Z  [store-ai] error POST  - Produto sem estoque
+2022-07-24T23:19:33.686Z  [store-ai] info POST /sale - {"value":1000,"date":"01/01/2022","client_id":8,"product_id":4}
+2022-07-24T23:19:39.428Z  [store-ai] info GET /product - todos productes
+2022-07-24T23:21:44.462Z  [store-ai] info POST /product - {"name":"Memroia ram","description":"Smatphone 8gb","value":"250","stock":"1","supplier_id":2}
+2022-07-24T23:21:51.448Z  [store-ai] info GET /product - todos productes
+2022-07-24T23:22:06.649Z  [store-ai] info POST /sale - {"value":250,"date":"01/01/2022","client_id":8,"product_id":6}
+2022-07-24T23:22:11.269Z  [store-ai] error POST  - Produto sem estoque
+2022-07-24T23:44:46.975Z  [store-ai] info GET /sale - todos salees
+2022-07-24T23:44:56.312Z  [store-ai] error POST  - Produto sem estoque
+2022-07-24T23:45:15.161Z  [store-ai] info DELETE /sale - 3
+2022-07-24T23:45:19.153Z  [store-ai] info GET /sale - todos salees
+2022-07-24T23:45:26.267Z  [store-ai] info GET /product - todos productes
+2022-07-24T23:53:43.360Z  [store-ai] error GET  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
+2022-07-24T23:54:18.928Z  [store-ai] info GET /product - todos productes
+2022-07-24T23:54:25.983Z  [store-ai] info GET /sale - todos salees
