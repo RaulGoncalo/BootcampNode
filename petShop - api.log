@@ -1,0 +1,36 @@
+2022-07-25T01:20:01.297Z  [store-ai] error GET  - connecion is not defined
+2022-07-25T01:21:49.417Z  [store-ai] error GET  - connecion is not defined
+2022-07-25T01:22:43.503Z  [store-ai] error GET  - column "proprietarios_id" does not exist
+2022-07-25T01:25:18.319Z  [store-ai] error POST  - Nome e telefone são obrigatórios
+2022-07-25T01:26:11.363Z  [store-ai] error POST  - relation "proprietario" does not exist
+2022-07-25T01:26:32.631Z  [store-ai] info POST /proprietario - {"nome":"Raul Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:26:59.785Z  [store-ai] error PUT  - Nome e telefone são obrigatórios
+2022-07-25T01:27:54.178Z  [store-ai] info PUT /proprietario - {"proprietario_id":7,"nome":"Raul G O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:28:22.754Z  [store-ai] error PUT  - relation "clients" does not exist
+2022-07-25T01:28:47.754Z  [store-ai] error PUT  - column "address" of relation "proprietarios" does not exist
+2022-07-25T01:29:01.132Z  [store-ai] info PUT /proprietario - {"proprietario_id":7,"nome":"Raul G O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:30:29.032Z  [store-ai] info PUT /proprietario - {"proprietario_id":7,"nome":"Raul Gonçalo O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:30:59.421Z  [store-ai] info PUT /proprietario - {"proprietario_id":7,"nome":"Raul Gonçalo O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:31:00.862Z  [store-ai] info PUT /proprietario - {"proprietario_id":7,"nome":"Raul Gonçalo O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:31:19.662Z  [store-ai] info PUT /proprietario - {"proprietario_id":7,"nome":"Raul Gonçalo O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:32:10.572Z  [store-ai] info PUT /proprietario - {"proprietario_id":7,"nome":"Raul Gonçalo O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:32:25.179Z  [store-ai] info POST /proprietario - {"nome":"Bianca","telefone":"(16) 5156-9170"}
+2022-07-25T01:32:37.130Z  [store-ai] info PUT /proprietario - {"proprietario_id":7,"nome":"Raul O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:33:33.356Z  [store-ai] error PUT  - Assignment to constant variable.
+2022-07-25T01:33:43.290Z  [store-ai] error PUT  - Assignment to constant variable.
+2022-07-25T01:33:54.449Z  [store-ai] info PUT /proprietario - undefined
+2022-07-25T01:34:14.881Z  [store-ai] info PUT /proprietario - undefined
+2022-07-25T01:35:36.036Z  [store-ai] info PUT /proprietario - undefined
+2022-07-25T01:37:01.878Z  [store-ai] info PUT /proprietario - undefined
+2022-07-25T01:37:20.772Z  [store-ai] info PUT /proprietario - {"proprietario_id":8,"nome":"Raul Gonçalo O Silva","telefone":"(16) 38454-9170"}
+2022-07-25T01:46:21.018Z  [store-ai] info POST /animal - {"nome":"Apolo","tipo":"Cachorro","proprietario_id":9}
+2022-07-25T01:46:41.374Z  [store-ai] info PUT /animal - {"animal_id":10,"nome":"Apolo Cread","tipo":"Cachorro","proprietario_id":9}
+2022-07-25T15:25:18.712Z  [store-ai] error DELETE  - animals.findindex is not a function
+2022-07-25T15:27:43.001Z  [store-ai] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
+2022-07-25T15:28:14.703Z  [store-ai] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
+2022-07-25T15:28:31.435Z  [store-ai] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
+2022-07-25T15:28:32.715Z  [store-ai] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
+2022-07-25T15:28:47.181Z  [store-ai] error DELETE  - Exclusão não permitida, proprietario com animais cadastrados
+2022-07-25T15:45:36.557Z  [store-ai] error GET  - relation "animais" does not exist
+2022-07-25T20:58:12.062Z  [store-ai] error POST  - Unexpected token “ in JSON at position 4
+2022-07-25T20:59:16.092Z  [store-ai] info POST /animal - {"nome":"Totó","tipo":"Cachorro","proprietario_id":6}
