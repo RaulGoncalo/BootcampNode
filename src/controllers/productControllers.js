@@ -4,7 +4,7 @@ const creatProduct = async (req, res, next) => {
     try {
         const product = req.body;
 
-        if (!product.name || !product.description || !product.value || !product.stock || !product.supplier_id) {
+        if (!product.name || !product.description || !product.value || !product.stock || !product.supplierId) {
             throw new Error("Nome, descrição, value, estoque e supplier_id são obrigatórios")
         }
 
@@ -69,7 +69,7 @@ const updateProduct = async (req, res, next) => {
     try {
         let product = req.body;
 
-        if (!product.product_id || !product.name || !product.description || !product.value || !product.stock || !product.supplier_id) {
+        if (!product.productId || !product.name || !product.description || !product.value || !product.stock || !product.supplierId) {
             throw new Error("product_id, Nome, descrição, value, estoque e supplier_id são obrigatórios");
         }
 

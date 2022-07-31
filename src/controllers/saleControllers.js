@@ -4,7 +4,7 @@ const creatSale = async (req, res, next) => {
     try {
         const sale = req.body;
 
-        if (!sale.value || !sale.date || !sale.client_id || !sale.product_id) {
+        if (!sale.value || !sale.date || !sale.clientId || !sale.productId) {
             throw new Error("Valor, data, client_id e product_id são obrigatórios")
         };
 
@@ -18,7 +18,7 @@ const creatSale = async (req, res, next) => {
 
 const getSales = async (req, res, next) => {
     try {
-        res.send(await saleService.getSales());
+        res.send(await saleService.getSales(req.query.productId, req.query.supplierId));
 
         logger.info(`GET /sale - sales`);
     } catch (error) {
@@ -69,7 +69,7 @@ const updateSale = async (req, res, next) => {
     try {
         let sale = req.body;
 
-        if (!sale.sale_id || !sale.value || !sale.date || !sale.client_id || !sale.product_id) {
+        if (!sale.saleId || !sale.value || !sale.date || !sale.clientId || !sale.productId) {
             throw new Error("Sale_id, valor, data, client_id e product_id são obrigatórios")
         };
 

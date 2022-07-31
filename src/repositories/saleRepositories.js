@@ -1,81 +1,116 @@
-import { connect } from '../db/config.js'
+import Sale from '../models/saleModels.js';
+import Product from '../models/productModels.js';
+import Client from '../models/clientModels.js';
 
 const insertSale = async (sale) => {
-    const connecion = await connect();
-
     try {
-        //desta forma evita ataques com comandos SQL na consulta "SQL injection"
-        const sql = "INSERT INTO sales (value, date, client_id, product_id) VALUES($1, $2, $3, $4) RETURNING *";
-        const values = [sale.value, sale.date, sale.client_id, sale.product_id];
-        const res = await connecion.query(sql, values);
-        return res.rows[0];
+        return await Sale.create(sale);
     } catch (error) {
         throw error
-    } finally {
-        connecion.release();
     }
 };
 
 
 const getSales = async () => {
-    const connecion = await connect();
     try {
-        const res = await connecion.query("SELECT * FROM sales");
-        return res.rows;
+        return await Sale.findAll({
+            include: [
+                {
+                    model: Client
+                },
+
+                {
+                    model: Product
+                }
+            ]
+        });
     } catch (error) {
         throw error
-    } finally {
-        connecion.release();
     }
 };
 
-const getSale = async (id) => {
-    const connecion = await connect();
-
+const getSalesByProductId = async (productId) => {
     try {
-        const res = await connecion.query("SELECT * FROM sales WHERE sale_id = $1", [id]);
-
-        return res.rows[0];
+        return await Sale.findAll({
+            where: {
+                productId: productId
+            },
+            include: {
+                model: Client
+            }
+        });
     } catch (error) {
         throw error
-    } finally {
-        connecion.release();
+    }
+};
+
+const getSalesBySupplierId = async (supplierId) => {
+    try {
+        return await Sale.findAll({
+            include: [
+                {
+                    model: Product,
+                    where: {
+                        supplierId: supplierId
+                    }
+                }
+            ]
+        });
+    } catch (error) {
+        throw error
+    }
+};
+
+
+const getSale = async (id) => {
+    try {
+        return await Sale.findByPk(id);
+    } catch (error) {
+        throw error
     }
 };
 
 const deleteSale = async (id) => {
-    const connecion = await connect();
-
     try {
-        await connecion.query("DELETE FROM sales WHERE sale_id = $1", [id]);
+        await Sale.destroy({
+            where: {
+                saleId: id
+            }
+        });
     } catch (error) {
         throw error
-    } finally {
-        connecion.release();
     }
 };
 
 const updateSale = async (sale) => {
-    const connecion = await connect();
-
     try {
-        const sql = "UPDATE sales SET value = $1, date = $2, client_id = $3  WHERE sale_id = $4 RETURNING *";
-        const values = [sale.value, sale.date, sale.client_id, sale.sale_id];
-        const res = await connecion.query(sql, values);
-        return res.rows[0];
+        await Sale.update(
+            {
+                value: sale.value,
+                date: sale.date,
+                clientId: sale.clientId
+            },
+
+            {
+                where: {
+                    saleId: sale.saleId
+                }
+            }
+        );
+
+        return await getSale(sale.saleId)
     } catch (error) {
         throw error
-    } finally {
-        connecion.release();
     }
 };
-
 
 
 export default {
     insertSale,
     getSale,
+    getSalesByProductId,
     getSales,
     deleteSale,
     updateSale,
+    getSalesBySupplierId
 };

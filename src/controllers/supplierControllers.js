@@ -69,7 +69,7 @@ const updateSupplier = async (req, res, next) => {
     try {
         let supplier = req.body;
 
-        if (!supplier.supplier_id || !supplier.name || !supplier.cnpj || !supplier.email || !supplier.phone || !supplier.address) {
+        if (!supplier.supplierId || !supplier.name || !supplier.cnpj || !supplier.email || !supplier.phone || !supplier.address) {
             throw new Error("supplier_id, Nome, CNPJ, e-mail, telefone e endereço são obrigatórios");
         }
 

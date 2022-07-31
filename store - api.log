@@ -185,3 +185,163 @@
 2022-07-24T23:53:43.360Z  [store-ai] error GET  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
 2022-07-24T23:54:18.928Z  [store-ai] info GET /product - todos productes
 2022-07-24T23:54:25.983Z  [store-ai] info GET /sale - todos salees
+2022-07-30T14:58:03.093Z  [store-ai] error GET  - column "cliet_id" does not exist
+2022-07-30T14:58:40.847Z  [store-ai] info GET /client - todos clientes
+2022-07-30T14:58:57.455Z  [store-ai] error GET  - Cannot set headers after they are sent to the client
+2022-07-30T14:59:01.562Z  [store-ai] info GET /client - 8
+2022-07-30T14:59:30.570Z  [store-ai] info POST /client - {"name":"João Silva","cpf":"49728847900","phone":"16991280878","email":"jsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-30T14:59:33.932Z  [store-ai] info GET /client - todos clientes
+2022-07-30T15:00:11.264Z  [store-ai] error PUT  - client_id, Nome, CPF, e-mail, telefone e endereço são obrigatórios
+2022-07-30T15:00:39.645Z  [store-ai] info PUT /client - {"clientId":15,"name":"João Oliveira da Silva","cpf":"49728847900","phone":"16991280878","email":"jsilva@gmail.com","address":"Rua Goias, n 384"}
+2022-07-30T15:02:11.465Z  [store-ai] info GET /client - todos clientes
+2022-07-30T15:02:18.593Z  [store-ai] info DELETE /client - 14
+2022-07-30T15:02:22.475Z  [store-ai] info GET /client - todos clientes
+2022-07-30T15:34:13.161Z  [store-ai] error GET  - connect is not a function
+2022-07-30T15:34:14.869Z  [store-ai] error GET  - connect is not a function
+2022-07-30T15:34:42.812Z  [store-ai] error GET  - connect is not a function
+2022-07-30T15:34:44.365Z  [store-ai] error GET  - connect is not a function
+2022-07-30T15:36:05.051Z  [store-ai] error GET  - supplierRepositories.getSuppliers is not a function
+2022-07-30T15:36:50.248Z  [store-ai] error GET  - column "suppliert_id" does not exist
+2022-07-30T15:37:13.228Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-30T15:37:15.019Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-30T15:37:49.951Z  [store-ai] info POST /supplier - {"name":"A eletronicos","cnpj":"49728847900","phone":"16991280878","email":"a.eletronicos@gmail.com","address":"Rua Alagoas, n 384"}
+2022-07-30T15:37:53.448Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-30T15:37:57.941Z  [store-ai] info GET /supplier - 2
+2022-07-30T15:38:07.518Z  [store-ai] info POST /supplier - {"name":"B eletronicos","cnpj":"49728847900","phone":"16991280878","email":"b.eletronicos@gmail.com","address":"Rua Alagoas, n 384"}
+2022-07-30T15:38:29.153Z  [store-ai] error PUT  - supplier_id, Nome, CNPJ, e-mail, telefone e endereço são obrigatórios
+2022-07-30T15:38:51.834Z  [store-ai] info PUT /supplier - {"supplierId":4,"name":"B eletronicos LTDA","cnpj":"49728847900","phone":"16991280878","email":"b.eletronicos@gmail.com","address":"Rua Alagoas, n 384"}
+2022-07-30T15:38:56.671Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-30T15:39:02.285Z  [store-ai] info POST /supplier - {"name":"B eletronicos","cnpj":"49728847900","phone":"16991280878","email":"b.eletronicos@gmail.com","address":"Rua Alagoas, n 384"}
+2022-07-30T15:39:07.554Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-30T15:39:12.076Z  [store-ai] info DELETE /supplier - 5
+2022-07-30T15:39:15.571Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-30T15:41:44.233Z  [store-ai] error GET  - column "productt_id" does not exist
+2022-07-30T15:41:56.507Z  [store-ai] error GET  - column "stcok" does not exist
+2022-07-30T15:42:12.342Z  [store-ai] info GET /product - todos productes
+2022-07-30T15:42:25.934Z  [store-ai] info GET /product - 5
+2022-07-30T21:40:44.342Z  [store-ai] info GET /product - todos productes
+2022-07-30T21:40:51.220Z  [store-ai] error DELETE  - column "vale" does not exist
+2022-07-30T21:42:42.958Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T21:42:48.576Z  [store-ai] info GET /sale - sales
+2022-07-30T21:42:49.960Z  [store-ai] info GET /sale - sales
+2022-07-30T21:43:18.104Z  [store-ai] info GET /sale - sales
+2022-07-30T21:43:53.762Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T21:43:57.837Z  [store-ai] info GET /product - 5
+2022-07-30T21:44:05.829Z  [store-ai] info GET /product - 6
+2022-07-30T21:44:11.973Z  [store-ai] info GET /sale - sales
+2022-07-30T22:11:36.842Z  [store-ai] error DELETE  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
+2022-07-30T22:12:31.150Z  [store-ai] error DELETE  - read ECONNRESET
+2022-07-30T22:14:19.348Z  [store-ai] info GET /product - todos productes
+2022-07-30T22:14:24.687Z  [store-ai] info GET /product - 6
+2022-07-30T22:14:27.337Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T22:14:32.489Z  [store-ai] info GET /product - 6
+2022-07-30T22:14:40.381Z  [store-ai] info GET /sale - sales
+2022-07-30T22:14:46.040Z  [store-ai] error GET  - Cannot set headers after they are sent to the client
+2022-07-30T22:14:49.876Z  [store-ai] info GET /sale - sales
+2022-07-30T22:16:02.242Z  [store-ai] error GET  - The argument passed to findAll must be an options object, use findByPk if you wish to pass a single primary key value
+2022-07-30T22:16:43.852Z  [store-ai] error GET  - The argument passed to findAll must be an options object, use findByPk if you wish to pass a single primary key value
+2022-07-30T22:17:12.713Z  [store-ai] info GET /sale - sales
+2022-07-30T22:17:14.270Z  [store-ai] info GET /sale - sales
+2022-07-30T22:17:19.667Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T22:17:41.191Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T22:18:41.449Z  [store-ai] error POST  - null value in column "client_id" violates not-null constraint
+2022-07-30T22:19:00.803Z  [store-ai] error POST  - Valor, data, client_id e product_id são obrigatórios
+2022-07-30T22:19:31.694Z  [store-ai] info GET /sale - sales
+2022-07-30T22:19:33.612Z  [store-ai] error POST  - Valor, data, client_id e product_id são obrigatórios
+2022-07-30T22:19:35.742Z  [store-ai] error POST  - Valor, data, client_id e product_id são obrigatórios
+2022-07-30T22:20:05.725Z  [store-ai] error POST  - Product_id não existe. 
+2022-07-30T22:21:19.579Z  [store-ai] info POST /sale - {"value":250,"date":"01/01/2022","clientId":8,"productId":6}
+2022-07-30T22:21:36.770Z  [store-ai] info GET /sale - sales
+2022-07-30T22:21:40.213Z  [store-ai] info GET /sale - sales
+2022-07-30T22:21:41.583Z  [store-ai] info GET /sale - sales
+2022-07-30T22:22:36.318Z  [store-ai] info GET /sale - sales
+2022-07-30T22:22:41.453Z  [store-ai] error GET  - Cannot set headers after they are sent to the client
+2022-07-30T22:22:44.775Z  [store-ai] info GET /sale - 5
+2022-07-30T22:22:52.548Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T22:23:31.612Z  [store-ai] info GET /sale - sales
+2022-07-30T22:23:34.535Z  [store-ai] info GET /sale - sales
+2022-07-30T22:24:24.068Z  [store-ai] error GET  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
+2022-07-30T22:24:41.001Z  [store-ai] info GET /sale - sales
+2022-07-30T22:26:02.907Z  [store-ai] error GET  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
+2022-07-30T22:26:06.131Z  [store-ai] error GET  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
+2022-07-30T22:26:14.972Z  [store-ai] error GET  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
+2022-07-30T22:26:43.203Z  [store-ai] error GET  - getaddrinfo ENOTFOUND kesavan.db.elephantsql.com
+2022-07-30T22:29:50.736Z  [store-ai] error POST  - null value in column "supplier_id" violates not-null constraint
+2022-07-30T22:30:07.531Z  [store-ai] error POST  - Nome, descrição, value, estoque e supplier_id são obrigatórios
+2022-07-30T22:30:19.413Z  [store-ai] error POST  - Supplier_id não existe
+2022-07-30T22:32:38.033Z  [store-ai] info POST /product - {"name":"Memroia ram","description":"Smatphone 16gb","value":"250","stock":"1","supplierId":2}
+2022-07-30T22:32:43.429Z  [store-ai] info GET /product - todos productes
+2022-07-30T22:32:49.657Z  [store-ai] info GET /product - 6
+2022-07-30T22:33:01.012Z  [store-ai] info GET /product - 8
+2022-07-30T22:33:06.946Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T22:33:41.489Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T22:33:45.327Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-30T22:33:55.437Z  [store-ai] info POST /sale - {"value":250,"date":"01/01/2022","clientId":8,"productId":6}
+2022-07-30T22:33:59.933Z  [store-ai] info GET /sale - sales
+2022-07-30T22:34:02.984Z  [store-ai] info GET /sale - sales
+2022-07-30T22:34:08.345Z  [store-ai] info GET /sale - 5
+2022-07-30T22:34:11.068Z  [store-ai] error PUT  - Sale_id, valor, data, client_id e product_id são obrigatórios
+2022-07-30T22:34:32.527Z  [store-ai] error PUT  - Sale_id, valor, data, client_id e product_id são obrigatórios
+2022-07-30T22:35:07.258Z  [store-ai] info PUT /sale - {"saleId":1,"value":"900","date":"2022-01-01","clientId":8,"productId":2}
+2022-07-30T22:35:13.283Z  [store-ai] info GET /sale - sales
+2022-07-30T22:35:45.412Z  [store-ai] info GET /sale - sales
+2022-07-30T22:36:49.761Z  [store-ai] error GET  - The argument passed to findAll must be an options object, use findByPk if you wish to pass a single primary key value
+2022-07-31T12:44:47.840Z  [store-ai] error GET  - The argument passed to findAll must be an options object, use findByPk if you wish to pass a single primary key value
+2022-07-31T12:45:00.752Z  [store-ai] info GET /sale - sales
+2022-07-31T12:46:10.921Z  [store-ai] info GET /sale - sales
+2022-07-31T12:48:00.073Z  [store-ai] info GET /sale - sales
+2022-07-31T12:48:12.356Z  [store-ai] info GET /sale - sales
+2022-07-31T12:48:15.927Z  [store-ai] info GET /sale - sales
+2022-07-31T12:48:20.420Z  [store-ai] info GET /sale - sales
+2022-07-31T12:48:25.322Z  [store-ai] info GET /sale - sales
+2022-07-31T12:48:32.647Z  [store-ai] info GET /sale - sales
+2022-07-31T12:48:44.222Z  [store-ai] info GET /sale - sales
+2022-07-31T12:48:52.762Z  [store-ai] info GET /sale - sales
+2022-07-31T12:49:30.056Z  [store-ai] info GET /sale - sales
+2022-07-31T12:49:38.275Z  [store-ai] info GET /product - todos productes
+2022-07-31T12:49:42.570Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-31T12:49:53.019Z  [store-ai] info GET /sale - sales
+2022-07-31T12:49:55.809Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-31T12:50:58.201Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-31T12:51:00.173Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-31T12:51:28.512Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-31T12:54:34.044Z  [store-ai] info DELETE /product - 8
+2022-07-31T12:54:53.653Z  [store-ai] info GET /product - todos productes
+2022-07-31T12:54:57.100Z  [store-ai] error GET  - Cannot set headers after they are sent to the client
+2022-07-31T12:55:02.105Z  [store-ai] info DELETE /product - 8
+2022-07-31T12:56:39.125Z  [store-ai] info POST /sale - {"value":250,"date":"01/01/2022","clientId":8,"productId":6}
+2022-07-31T12:56:42.282Z  [store-ai] info PUT /sale - {"saleId":1,"value":"900","date":"2022-01-01","clientId":8,"productId":2}
+2022-07-31T12:56:48.593Z  [store-ai] info PUT /sale - {"saleId":1,"value":"1000","date":"2022-01-01","clientId":8,"productId":2}
+2022-07-31T12:56:51.315Z  [store-ai] info GET /sale - sales
+2022-07-31T12:56:55.995Z  [store-ai] info GET /sale - sales
+2022-07-31T12:57:08.499Z  [store-ai] info GET /sale - 5
+2022-07-31T12:57:13.979Z  [store-ai] info DELETE /sale - 5
+2022-07-31T12:57:17.219Z  [store-ai] info GET /sale - sales
+2022-07-31T12:57:31.233Z  [store-ai] error GET  - Cannot set headers after they are sent to the client
+2022-07-31T13:03:09.200Z  [store-ai] info POST /product - {"name":"Memroia ram","description":"Smatphone 16gb","value":"250","stock":"1","supplierId":2}
+2022-07-31T13:03:13.671Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-31T13:03:49.898Z  [store-ai] info DELETE /product - 9
+2022-07-31T13:03:55.911Z  [store-ai] info GET /product - todos productes
+2022-07-31T13:04:18.200Z  [store-ai] error DELETE  - Produto possui vendas
+2022-07-31T13:25:57.266Z  [store-ai] info GET /supplier - todos supplieres
+2022-07-31T13:26:21.088Z  [store-ai] info GET /sale - sales
+2022-07-31T13:26:25.171Z  [store-ai] info GET /sale - sales
+2022-07-31T13:26:30.539Z  [store-ai] info GET /sale - sales
+2022-07-31T13:27:02.874Z  [store-ai] info POST /product - {"name":"Memroia ram","description":"Smatphone 16gb","value":"250","stock":"1","supplierId":4}
+2022-07-31T13:27:07.457Z  [store-ai] info POST /product - {"name":"Memroia ram","description":"Smatphone 16gb","value":"250","stock":"1","supplierId":3}
+2022-07-31T13:27:10.195Z  [store-ai] error POST  - Supplier_id não existe
+2022-07-31T13:27:14.785Z  [store-ai] info POST /product - {"name":"Memroia ram","description":"Smatphone 16gb","value":"250","stock":"1","supplierId":4}
+2022-07-31T13:27:18.484Z  [store-ai] error POST  - Supplier_id não existe
+2022-07-31T13:27:32.611Z  [store-ai] info GET /product - todos productes
+2022-07-31T13:27:47.904Z  [store-ai] info POST /sale - {"value":250,"date":"01/01/2022","clientId":8,"productId":12}
+2022-07-31T13:27:53.913Z  [store-ai] info POST /sale - {"value":250,"date":"01/01/2022","clientId":8,"productId":12}
+2022-07-31T13:27:54.576Z  [store-ai] info POST /sale - {"value":250,"date":"01/01/2022","clientId":8,"productId":12}
+2022-07-31T13:27:57.356Z  [store-ai] info POST /sale - {"value":250,"date":"01/01/2022","clientId":8,"productId":11}
+2022-07-31T13:28:03.027Z  [store-ai] info GET /sale - sales
+2022-07-31T13:28:11.034Z  [store-ai] info GET /sale - sales
+2022-07-31T13:28:15.189Z  [store-ai] info GET /sale - sales
+2022-07-31T13:28:22.384Z  [store-ai] info GET /sale - sales
+2022-07-31T13:28:26.065Z  [store-ai] info GET /sale - sales
+2022-07-31T13:28:29.529Z  [store-ai] info GET /sale - sales
+2022-07-31T13:28:32.803Z  [store-ai] info GET /sale - sales
+2022-07-31T13:28:37.220Z  [store-ai] info GET /sale - sales

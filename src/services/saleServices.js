@@ -3,11 +3,11 @@ import clientRepositories from "../repositories/clientRepositories.js";
 import productRepositories from "../repositories/productRepositories.js";
 
 const creatSale = async (sale) => {
-    const product = await productRepositories.getProduct(sale.product_id);
+    const product = await productRepositories.getProduct(sale.productId);
 
 
     let error = '';
-    if (!await clientRepositories.getClient(sale.client_id)) {
+    if (!await clientRepositories.getClient(sale.clientId)) {
         error = "Client_id não existe. ";
     };
 
@@ -30,7 +30,13 @@ const creatSale = async (sale) => {
     }
 };
 
-const getSales = async () => {
+const getSales = async (productId, supplierId) => {
+    if (productId) {
+        return await saleRepositories.getSalesByProductId(productId)
+    }
+    if (supplierId) {
+        return await saleRepositories.getSalesBySupplierId(supplierId)
+    }
     return await saleRepositories.getSales();
 };
 
@@ -42,7 +48,7 @@ const deleteSale = async (id) => {
     const sale = await saleRepositories.getSale(id);
 
     if (sale) {
-        const product = await productRepositories.getProduct(sale.product_id);
+        const product = await productRepositories.getProduct(sale.productId);
         await saleRepositories.deleteSale(id);
         product.stock++;
         await productRepositories.updateProduct(product);
@@ -54,11 +60,11 @@ const deleteSale = async (id) => {
 const updateSale = async (sale) => {
     let error = '';
 
-    if (!await clientRepositories.getClient(sale.client_id)) {
+    if (!await clientRepositories.getClient(sale.clientId)) {
         error = "Client_id não existe. ";
     };
 
-    if (!await productRepositories.getProduct(sale.product_id)) {
+    if (!await productRepositories.getProduct(sale.productId)) {
         error += "Product_id não existe. ";
     };
 

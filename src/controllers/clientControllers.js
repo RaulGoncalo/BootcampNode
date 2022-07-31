@@ -69,7 +69,7 @@ const updateClient = async (req, res, next) => {
     try {
         let client = req.body;
 
-        if (!client.client_id || !client.name || !client.cpf || !client.email || !client.phone || !client.address) {
+        if (!client.clientId || !client.name || !client.cpf || !client.email || !client.phone || !client.address) {
             throw new Error("client_id, Nome, CPF, e-mail, telefone e endereço são obrigatórios");
         }
 
