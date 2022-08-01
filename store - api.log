@@ -345,3 +345,70 @@
 2022-07-31T13:28:29.529Z  [store-ai] info GET /sale - sales
 2022-07-31T13:28:32.803Z  [store-ai] info GET /sale - sales
 2022-07-31T13:28:37.220Z  [store-ai] info GET /sale - sales
+2022-07-31T21:36:21.388Z  [store-ai] info POST /procut/info {"productId":11,"category":"peças notebook","width":"10cm","heigth":"5cm","depth":"2cm","_id":"62e6f5d50b1ec2b72994edfc"}
+2022-07-31T22:30:15.981Z  [store-ai] info POST /procut/info {"productId":11,"category":"peças notebook","width":"10cm","heigth":"5cm","depth":"2cm","_id":"62e702770b1ec2b72994edfd"}
+2022-07-31T22:39:12.676Z  [store-ai] error PUT  - product_id, Nome, descrição, value, estoque e supplier_id são obrigatórios
+2022-07-31T22:39:16.817Z  [store-ai] error PUT  - productService.updateProductInfo is not a function
+2022-07-31T22:41:25.842Z  [store-ai] info PUT /procut/info {"productId":11,"category":"Componentes notebook","heigth":"5cm","depth":"2cm"}
+2022-07-31T22:41:53.107Z  [store-ai] info PUT /procut/info {"productId":11,"category":"Notebook","heigth":"5cm","depth":"2cm"}
+2022-07-31T22:49:30.067Z  [store-ai] error GET  - Cannot set properties of null (setting 'info')
+2022-07-31T22:49:50.134Z  [store-ai] info GET /product - 12
+2022-07-31T22:51:05.407Z  [store-ai] info GET /product - 12
+2022-07-31T22:51:33.243Z  [store-ai] info GET /product - 12
+2022-07-31T22:53:29.291Z  [store-ai] info GET /product - 12
+2022-07-31T22:53:43.804Z  [store-ai] info GET /product - 11
+2022-07-31T22:54:03.368Z  [store-ai] info GET /product - 2
+2022-07-31T22:54:29.512Z  [store-ai] info GET /product - 2
+2022-07-31T22:54:34.957Z  [store-ai] info GET /product - todos productes
+2022-07-31T22:54:46.368Z  [store-ai] info GET /product - 11
+2022-07-31T22:55:05.308Z  [store-ai] info GET /product - 2
+2022-07-31T22:57:13.181Z  [store-ai] info GET /product - 2
+2022-07-31T22:57:20.312Z  [store-ai] info GET /product - 11
+2022-07-31T22:57:29.244Z  [store-ai] info GET /product - 5
+2022-07-31T22:57:54.371Z  [store-ai] info GET /product - 5
+2022-07-31T22:57:58.746Z  [store-ai] info GET /product - 11
+2022-07-31T22:58:42.745Z  [store-ai] info PUT /procut/info {"productId":11,"category":"Notebook","heigth":"5cm","depth":"2cm","reviews":[]}
+2022-07-31T22:58:54.483Z  [store-ai] info GET /product - 11
+2022-07-31T23:04:53.709Z  [store-ai] error POST  - Produto já possui informações
+2022-07-31T23:05:23.643Z  [store-ai] error POST  - Produto já possui informações
+2022-07-31T23:06:19.905Z  [store-ai] info POST /procut/info {"productId":11,"category":"peças notebook","width":"10cm","heigth":"5cm","depth":"2cm","reviwes":[],"_id":"62e70aeb15e03d8aaa979855"}
+2022-07-31T23:06:28.509Z  [store-ai] error POST  - Produto já possui informações
+2022-07-31T23:06:42.261Z  [store-ai] info POST /procut/info {"productId":2,"category":"peças notebook","width":"10cm","heigth":"5cm","depth":"2cm","reviwes":[],"_id":"62e70b0215e03d8aaa979856"}
+2022-07-31T23:07:32.317Z  [store-ai] info POST /procut/info {"productId":5,"category":"Smartphone","width":"10cm","heigth":"15cm","depth":"8cm","reviwes":[],"_id":"62e70b3415e03d8aaa979857"}
+2022-07-31T23:07:35.910Z  [store-ai] error POST  - Produto já possui informações
+2022-07-31T23:07:44.223Z  [store-ai] info GET /product - 11
+2022-07-31T23:07:49.884Z  [store-ai] info GET /product - 5
+2022-07-31T23:08:49.091Z  [store-ai] info PUT /procut/info {"productId":2,"category":"Notebook","width":"35cm","heigth":"50cm","depth":"20cm","reviews":[]}
+2022-07-31T23:09:02.954Z  [store-ai] info GET /product - 11
+2022-07-31T23:10:06.397Z  [store-ai] info POST /procut/info {"productId":5,"category":"Smartphone","width":"10cm","heigth":"15cm","depth":"8cm","reviwes":[],"_id":"62e70bce15e03d8aaa979858"}
+2022-07-31T23:10:17.180Z  [store-ai] info GET /product - 5
+2022-07-31T23:10:59.477Z  [store-ai] info POST /procut/info {"productId":11,"category":"Peças notebook","width":"8cm","heigth":"4cm","depth":"2cm","reviwes":[],"_id":"62e70c0315e03d8aaa979859"}
+2022-07-31T23:11:10.467Z  [store-ai] info GET /product - 11
+2022-07-31T23:11:24.105Z  [store-ai] error POST  - Produto já possui informações
+2022-07-31T23:11:36.688Z  [store-ai] error POST  - Produto já possui informações
+2022-07-31T23:12:47.707Z  [store-ai] info PUT /procut/info {"productId":11,"category":"Componentes Notebook","width":"8cm","heigth":"4cm","depth":"2cm","reviwes":[]}
+2022-07-31T23:14:03.209Z  [store-ai] info POST /procut/info {"productId":11,"category":"Notebook","width":"8cm","heigth":"4cm","depth":"2cm","reviwes":[],"_id":"62e70cbb143f3211a1c0309d"}
+2022-07-31T23:14:24.415Z  [store-ai] info POST /procut/info {"productId":5,"category":"Smartphone","width":"8cm","heigth":"4cm","depth":"2cm","reviwes":[],"_id":"62e70cd0143f3211a1c0309e"}
+2022-07-31T23:15:00.942Z  [store-ai] info PUT /procut/info {"productId":5,"category":"Smartphone","width":"8cm","heigth":"16cm","depth":"1,6cm","reviwes":[]}
+2022-07-31T23:15:24.471Z  [store-ai] info PUT /procut/info {"productId":5,"category":"Smartphone","width":"8cm","heigth":"16cm","depth":"1,6cm","reviwes":[]}
+2022-07-31T23:15:53.575Z  [store-ai] info PUT /procut/info {"productId":5,"category":"Smartphone","width":"8cm","heigth":"16cm","depth":"1,6cm","reviwes":[]}
+2022-07-31T23:16:39.956Z  [store-ai] info PUT /procut/info {"productId":11,"category":"Componentes p/ notebook","width":"8cm","heigth":"4cm","depth":"2cm","reviwes":[]}
+2022-07-31T23:16:50.961Z  [store-ai] info GET /product - 11
+2022-07-31T23:16:58.024Z  [store-ai] info GET /product - 5
+2022-07-31T23:17:04.104Z  [store-ai] info GET /product - 6
+2022-07-31T23:21:07.542Z  [store-ai] info PUT /procut/info {"productId":11,"category":"Componentes p/ notebook","width":"8cm","heigth":"4cm","depth":"2cm","reviews":[]}
+2022-07-31T23:21:55.207Z  [store-ai] info POST /procut/info {"productId":5,"category":"Smartphone","width":"8cm","heigth":"4cm","depth":"2cm","reviews":[],"_id":"62e70e93ad9833f3b36374c5"}
+2022-07-31T23:22:03.481Z  [store-ai] info POST /procut/info {"productId":11,"category":"Componentes p/ notebook","width":"8cm","heigth":"4cm","depth":"2cm","reviews":[],"_id":"62e70e9bad9833f3b36374c6"}
+2022-08-01T00:04:35.943Z  [store-ai] info GET /product - 6
+2022-08-01T00:04:40.154Z  [store-ai] info GET /product - 5
+2022-08-01T00:05:18.161Z  [store-ai] error DELETE  - Cannot read properties of null (reading 'reviews')
+2022-08-01T00:15:30.073Z  [store-ai] info GET /product/info - todos productsInfo
+2022-08-01T00:15:41.468Z  [store-ai] info GET /product/info - todos productsInfo
+2022-08-01T00:16:42.097Z  [store-ai] info GET /product/info - todos productsInfo
+2022-08-01T00:22:12.668Z  [store-ai] info POST /procut/info {"productId":12,"category":"Componentes p/ desktop","width":"8cm","heigth":"4cm","depth":"2cm","reviews":[],"_id":"62e71cb46e43482e5858c555"}
+2022-08-01T00:22:40.337Z  [store-ai] info GET /product/info - todos productsInfo
+2022-08-01T00:22:47.982Z  [store-ai] info DELETE /product/info
+2022-08-01T00:23:01.347Z  [store-ai] info GET /product/info - todos productsInfo
+2022-08-01T00:23:04.621Z  [store-ai] info GET /product/info - todos productsInfo
+2022-08-01T00:23:44.342Z  [store-ai] info DELETE /product/info
+2022-08-01T00:23:49.615Z  [store-ai] info GET /product/info - todos productsInfo
