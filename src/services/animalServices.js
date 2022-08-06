@@ -6,18 +6,18 @@ const insertAnimal = async (animal) => {
 
 const getAnimals = async (proprietarioId) => {
     if (proprietarioId) {
-        return await animalRepositories.getAnimalsByProprietarioId(proprietarioId);
+        return await animalRepositories.getAnimalsByProprietarioId(parseInt(proprietarioId));
     };
 
     return await animalRepositories.getAnimals();
 };
 
 const getAnimal = async (id) => {
-    return await animalRepositories.getAnimal(id);
+    return await animalRepositories.getAnimal(parseInt(id));
 };
 
 const deleteAnimal = async (id) => {
-    await animalRepositories.deleteAnimal(id);
+    await animalRepositories.deleteAnimal(parseInt(id));
 };
 
 const updateAnimal = async (animal) => {

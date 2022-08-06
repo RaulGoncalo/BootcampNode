@@ -17,7 +17,7 @@ const insertAnimal = async (req, res, next) => {
 
 const getAnimals = async (req, res, next) => {
     try {
-        res.send(await animalServices.getAnimals(req.query.proprietario_id));
+        res.send(await animalServices.getAnimals(req.query.proprietarioId));
     } catch (error) {
         next(error)
     }
@@ -44,8 +44,8 @@ const updateAnimal = async (req, res, next) => {
     let animal = req.body;
     try {
 
-        if (!animal.animal_id || !animal.nome || !animal.tipo) {
-            throw new Error("Animal_id, nome e tipo são obrigatórios");
+        if (!animal.animalId || !animal.nome || !animal.tipo) {
+            throw new Error("AnimalId, nome e tipo são obrigatórios");
         };
 
         animal = await animalServices.updateAnimal(animal)

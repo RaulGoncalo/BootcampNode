@@ -15,7 +15,7 @@ const getOwner = async (id) => {
 
 const deleteOwner = async (id) => {
     const animals = await animalRepositories.getAnimals();
-    const index = animals.findIndex(animal => animal.proprietario_id == id)
+    const index = animals.findIndex(animal => animal.proprietarioId == id)
 
     if (index >= 0) {
         throw new Error("Exclusão não permitida, proprietario com animais cadastrados")

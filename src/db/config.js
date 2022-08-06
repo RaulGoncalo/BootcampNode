@@ -1,6 +1,7 @@
-import db from 'pg';
+//import db from 'pg';
+import { Sequelize } from 'sequelize';
 
-const connect = async () => {
+/*const connect = async () => {
     if (global.connection) {
         return global.connection.connect();
     };
@@ -11,6 +12,16 @@ const connect = async () => {
     });
     global.connection = pool;
     return pool.connect();
-}
+}*/
 
-export { connect }
+const sequelize = new Sequelize(
+    "postgres://zwuhkpvc:2Es43QtzzKfmwaPNNnenwbegqBxOIuZ4@kesavan.db.elephantsql.com/zwuhkpvc",
+    {
+        dialect: "postgres",
+        define: {
+            timestamps: false
+        }
+    }
+);
+
+export default sequelize 

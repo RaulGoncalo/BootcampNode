@@ -4,11 +4,15 @@ import winston from 'winston';
 
 import ownerRoutes from "./routes/ownerRoutes.js";
 import animalRoutes from "./routes/animalRoutes.js";
+import serviceRoutes from "./routes/serviceRoutes.js";
+import postsRoutes from "./routes/potsRoutes.js";
+import commentsRoutes from "./routes/commentsRoutes.js";
 
 const { combine, timestamp, label, printf } = winston.format;
 const myFormt = printf(({ level, message, label, timestamp }) => {
     return `${timestamp}  [${label}] ${level} ${message}`;
 });
+
 global.logger = winston.createLogger({
     level: "silly",
     transports: [
@@ -30,6 +34,9 @@ app.use(cors());
 
 app.use("/proprietarios", ownerRoutes);
 app.use("/animal", animalRoutes);
+app.use("/servico", serviceRoutes);
+app.use("/post", postsRoutes);
+app.use("/comentario", commentsRoutes);
 
 app.use((err, req, res, next) => {
     logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);

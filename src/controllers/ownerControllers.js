@@ -44,7 +44,7 @@ const updateOwner = async (req, res, next) => {
     let owner = req.body;
     try {
 
-        if (!owner.proprietario_id || !owner.nome || !owner.telefone) {
+        if (!owner.proprietarioId || !owner.nome || !owner.telefone) {
             throw new Error("Proprietario_id, nome e telefone são obrigatórios");
         };
 

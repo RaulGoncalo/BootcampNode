@@ -34,3 +34,147 @@
 2022-07-25T15:45:36.557Z  [store-ai] error GET  - relation "animais" does not exist
 2022-07-25T20:58:12.062Z  [store-ai] error POST  - Unexpected token “ in JSON at position 4
 2022-07-25T20:59:16.092Z  [store-ai] info POST /animal - {"nome":"Totó","tipo":"Cachorro","proprietario_id":6}
+2022-08-01T21:43:25.091Z  [store-ai] error PUT  - Animal_id, nome e tipo são obrigatórios
+2022-08-01T21:44:08.083Z  [store-ai] error POST  - null value in column "telefone" violates not-null constraint
+2022-08-01T21:44:45.079Z  [store-ai] error POST  - null value in column "telefone" violates not-null constraint
+2022-08-01T21:44:54.943Z  [store-ai] error POST  - null value in column "telefone" violates not-null constraint
+2022-08-01T21:45:25.083Z  [store-ai] error POST  - null value in column "telefone" violates not-null constraint
+2022-08-01T21:45:46.123Z  [store-ai] info POST /proprietario - {"nome":"Raul","telefone":"(16) 5156-9170"}
+2022-08-01T21:46:00.155Z  [store-ai] info PUT /proprietario - [1]
+2022-08-01T21:46:51.165Z  [store-ai] info PUT /proprietario - {"proprietarioId":8,"nome":"Raul G O D Silva","telefone":"(16) 5156-9170"}
+2022-08-01T21:47:27.646Z  [store-ai] info POST /proprietario - {"nome":"Bianca","telefone":"(16) 5156-9170"}
+2022-08-01T21:48:04.397Z  [store-ai] info PUT /proprietario - {"proprietarioId":9,"nome":"Bianca C Ferreira","telefone":"(16) 5156-9170"}
+2022-08-01T21:48:13.603Z  [store-ai] error DELETE  - Exclusão não permitida, proprietario com animais cadastrados
+2022-08-01T21:49:19.641Z  [store-ai] error POST  - null value in column "telefone" violates not-null constraint
+2022-08-01T21:50:54.533Z  [store-ai] info POST /animal - {"proprietarioId":8,"nome":"Bidula","tipo":"Cachorro"}
+2022-08-01T21:51:54.587Z  [store-ai] info POST /animal - {"proprietarioId":8,"nome":"Bidula","tipo":"Cachorro"}
+2022-08-01T21:52:16.966Z  [store-ai] error DELETE  - cnt is not defined
+2022-08-01T21:57:21.920Z  [store-ai] error DELETE  - cnt is not defined
+2022-08-01T21:57:54.329Z  [store-ai] error DELETE  - cnt is not defined
+2022-08-01T21:59:07.592Z  [store-ai] error DELETE  - cnt is not defined
+2022-08-01T22:54:02.767Z  [store-ai] info GET /servico
+2022-08-01T22:54:04.455Z  [store-ai] info GET /servico
+2022-08-01T22:55:35.142Z  [store-ai] error POST  - Descrição, valor e animalId são obrigatórios
+2022-08-01T22:55:55.337Z  [store-ai] info POST /servico - {"descricao":"Banho e tosa","valor":"50,00","animalId":2}
+2022-08-01T22:56:48.519Z  [store-ai] info GET /servico
+2022-08-01T22:57:42.030Z  [store-ai] info POST /servico - {"descricao":"Banho e tosa","valor":"50,00","animalId":10}
+2022-08-01T22:57:52.548Z  [store-ai] info POST /servico - {"descricao":"Banho e tosa","valor":"80,00","animalId":4}
+2022-08-01T22:58:03.199Z  [store-ai] info POST /servico - {"descricao":"Banho","valor":"25,00","animalId":5}
+2022-08-01T22:58:15.362Z  [store-ai] info POST /servico - {"descricao":"Tosa","valor":"30,00","animalId":6}
+2022-08-01T22:58:26.581Z  [store-ai] info POST /servico - {"descricao":"Banho e Tosa","valor":"50,00","animalId":7}
+2022-08-01T22:58:36.467Z  [store-ai] info POST /servico - {"descricao":"Banho e Tosa","valor":"50,00","animalId":10}
+2022-08-01T22:58:38.597Z  [store-ai] info POST /servico - {"descricao":"Banho e Tosa","valor":"50,00","animalId":10}
+2022-08-01T22:58:54.012Z  [store-ai] info GET /servico
+2022-08-01T22:59:28.152Z  [store-ai] info GET /servico
+2022-08-01T22:59:48.350Z  [store-ai] error GET  - proprietarios is not associated to servicos!
+2022-08-01T23:00:22.334Z  [store-ai] info GET /servico
+2022-08-01T23:00:25.074Z  [store-ai] error GET  - proprietarios is not associated to servicos!
+2022-08-01T23:03:13.795Z  [store-ai] info GET /servico
+2022-08-01T23:03:21.527Z  [store-ai] info GET /servico
+2022-08-01T23:03:24.831Z  [store-ai] info GET /servico
+2022-08-01T23:03:29.426Z  [store-ai] info GET /servico
+2022-08-01T23:03:34.011Z  [store-ai] info GET /servico
+2022-08-01T23:03:35.709Z  [store-ai] info GET /servico
+2022-08-01T23:03:39.174Z  [store-ai] info GET /servico
+2022-08-01T23:04:06.079Z  [store-ai] info GET /servico
+2022-08-02T00:06:59.227Z  [store-ai] error POST  - Posts.save is not a function
+2022-08-02T00:07:53.200Z  [store-ai] info POST /servico - {"titulo":"teste","conteudo":"teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:08:27.321Z  [store-ai] info POST /servico - {"titulo":"teste","conteudo":"teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:08:39.670Z  [store-ai] info POST /servico - {"titulo":"teste","conteudo":"teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:10:03.330Z  [store-ai] info POST /servico - {"titulo":"teste","conteudo":"teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:10:24.901Z  [store-ai] info POST /servico - {"titulo":"teste","conteudo":"teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:13:00.241Z  [store-ai] info POST /servico - {"titulo":"teste","conteudo":"teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:18:57.444Z  [store-ai] info POST /servico - {"titulo":"teste","conteudo":"teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:19:24.688Z  [store-ai] error GET  - query.exe is not a function
+2022-08-02T00:20:46.787Z  [store-ai] info POST /servico - {"titulo":"teste","conteudo":"teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:23:17.497Z  [store-ai] error GET  - query.exe is not a function
+2022-08-02T00:25:56.167Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:26:29.787Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:29:04.735Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:30:58.557Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:31:00.902Z  [store-ai] error GET  - query.exe is not a function
+2022-08-02T00:31:02.322Z  [store-ai] error GET  - query.exe is not a function
+2022-08-02T00:31:02.894Z  [store-ai] error GET  - query.exe is not a function
+2022-08-02T00:31:03.475Z  [store-ai] error GET  - query.exe is not a function
+2022-08-02T00:32:04.579Z  [store-ai] info GET /servico
+2022-08-02T00:34:44.315Z  [store-ai] info GET /servico
+2022-08-02T00:34:47.419Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:34:49.733Z  [store-ai] info GET /servico
+2022-08-02T00:35:17.658Z  [store-ai] info GET /servico
+2022-08-02T00:35:19.966Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:38:05.313Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:40:33.687Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:43:32.501Z  [store-ai] info GET /servico
+2022-08-02T00:45:29.394Z  [store-ai] error POST  - query.exe is not a function
+2022-08-02T00:45:54.707Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:46:45.233Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:46:48.325Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:47:59.012Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:49:41.293Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:51:20.775Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:51:29.632Z  [store-ai] info POST /servico - {"titulo":"teste 3","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:51:33.208Z  [store-ai] info POST /servico - {"titulo":"teste 4","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:51:36.996Z  [store-ai] info POST /servico - {"titulo":"teste 5","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T00:51:41.768Z  [store-ai] info GET /servico
+2022-08-02T00:51:57.217Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:52:57.298Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:53:47.409Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:56:17.325Z  [store-ai] error POST  - Nome e conteudo são obrigatórios
+2022-08-02T00:56:40.835Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T00:57:17.825Z  [store-ai] error POST  - Invalid update pipeline operator: "_id"
+2022-08-02T00:57:56.774Z  [store-ai] error POST  - Invalid update pipeline operator: "_id"
+2022-08-02T00:58:14.762Z  [store-ai] error POST  - Invalid update pipeline operator: "_id"
+2022-08-02T00:58:16.706Z  [store-ai] error POST  - Invalid update pipeline operator: "_id"
+2022-08-02T00:59:54.010Z  [store-ai] error POST  - Invalid update pipeline operator: "_id"
+2022-08-02T01:01:12.734Z  [store-ai] info POST /servico - {"id":"62e875157574b6919272d73a","comments":{"nome":"Raul","conteudo":"teste teste teste teste"}}
+2022-08-02T01:05:09.292Z  [store-ai] info POST /servico - {"titulo":"teste 5","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T01:06:10.010Z  [store-ai] info GET /servico
+2022-08-02T01:07:47.767Z  [store-ai] info POST /servico - {"_id":"62e875157574b6919272d73a","comments":{"nome":"Raul","conteudo":"teste teste teste teste"}}
+2022-08-02T01:08:12.205Z  [store-ai] info GET /servico
+2022-08-02T01:08:24.716Z  [store-ai] info POST /servico - {"_id":"62e878430ea40b8f8bd3300c","comments":{"nome":"Raul","conteudo":"teste teste teste teste"}}
+2022-08-02T01:08:27.525Z  [store-ai] info GET /servico
+2022-08-02T01:08:38.569Z  [store-ai] info GET /servico
+2022-08-02T01:09:13.100Z  [store-ai] info GET /servico
+2022-08-02T01:09:21.844Z  [store-ai] info POST /servico - {"_id":"62e878430ea40b8f8bd3300c","comments":{"nome":"Raul","conteudo":"teste teste teste teste"}}
+2022-08-02T01:10:15.434Z  [store-ai] info POST /servico - {"_id":"62e878430ea40b8f8bd3300c","comments":{"nome":"Raul","conteudo":"teste teste teste teste"}}
+2022-08-02T01:10:47.999Z  [store-ai] error POST  - Cast to Number failed for value "62e878430ea40b8f8bd3300c" (type string) at path "postId" for model "Posts"
+2022-08-02T01:11:35.503Z  [store-ai] info POST /servico - {"_id":"62e878430ea40b8f8bd3300c","comments":{"nome":"Raul","conteudo":"teste teste teste teste"}}
+2022-08-02T01:13:16.066Z  [store-ai] error POST  - Cannot read properties of undefined (reading 'push')
+2022-08-02T01:15:16.356Z  [store-ai] info POST /servico - {"_id":"62e878430ea40b8f8bd3300c","comments":{"nome":"Raul","conteudo":"teste teste teste teste"}}
+2022-08-02T01:17:58.176Z  [store-ai] info POST /servico - {"titulo":"teste 1","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T01:17:59.639Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T01:18:02.029Z  [store-ai] info POST /servico - {"titulo":"teste 3","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T01:18:04.737Z  [store-ai] info POST /servico - {"titulo":"teste 4","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T01:18:11.159Z  [store-ai] info POST /servico - {"titulo":"teste 5","conteudo":"teste2teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"}
+2022-08-02T01:18:27.990Z  [store-ai] info POST /servico - {"titulo":"teste 6","conteudo":"teste"}
+2022-08-02T01:18:31.132Z  [store-ai] info GET /servico
+2022-08-02T01:18:53.137Z  [store-ai] info POST /servico - {"_id":"62e87b4c0c38ce28312b0587","comments":{"nome":"Raul","conteudo":"Teste 4"}}
+2022-08-02T01:18:56.836Z  [store-ai] info GET /servico
+2022-08-02T01:20:37.812Z  [store-ai] info POST /servico - {"_id":"62e87b4c0c38ce28312b0587","comments":{"nome":"João","conteudo":"Teste 4"}}
+2022-08-02T01:20:39.992Z  [store-ai] info GET /servico
+2022-08-02T01:21:40.174Z  [store-ai] info POST /servico - {"_id":"62e87b4c0c38ce28312b0587","comments":{"nome":"João 2","conteudo":"Teste 4"}}
+2022-08-02T01:22:45.101Z  [store-ai] info POST /servico - {"_id":"62e87b4c0c38ce28312b0587","comments":{"nome":"João 2","conteudo":"Teste 4"}}
+2022-08-02T01:22:47.744Z  [store-ai] info GET /servico
+2022-08-02T01:26:22.871Z  [store-ai] info POST /servico - {"titulo":"teste 1","conteudo":"teste 1"}
+2022-08-02T01:26:31.265Z  [store-ai] info POST /servico - {"titulo":"teste 2","conteudo":"teste teste"}
+2022-08-02T01:26:34.160Z  [store-ai] info GET /servico
+2022-08-02T01:26:55.216Z  [store-ai] info POST /servico - {"_id":"62e87d3d3db85150ae13ce64","comments":{"nome":"João 2","conteudo":"Teste 4"}}
+2022-08-02T01:26:58.476Z  [store-ai] info GET /servico
+2022-08-02T01:28:58.890Z  [store-ai] info POST /servico - {"_id":"62e87d3d3db85150ae13ce64","comments":{"nome":"João 2","conteudo":"Teste 4"}}
+2022-08-02T01:29:02.500Z  [store-ai] info GET /servico
+2022-08-02T01:30:07.024Z  [store-ai] info GET /servico
+2022-08-02T01:30:10.338Z  [store-ai] info POST /servico - {"_id":"62e87d3d3db85150ae13ce64","comments":{"nome":"João 2","conteudo":"Teste 4"}}
+2022-08-02T01:32:08.281Z  [store-ai] info POST /servico - {"titulo":"teste 1","conteudo":"teste 1"}
+2022-08-02T01:32:10.748Z  [store-ai] info GET /servico
+2022-08-02T01:32:26.386Z  [store-ai] info POST /servico - {"_id":"62e87e97dd48e7d02fdd91e8","comments":{"nome":"João 2","conteudo":"Teste 4"}}
+2022-08-02T01:34:47.033Z  [store-ai] info POST /servico - {"titulo":"teste 1","conteudo":"teste 1"}
+2022-08-02T01:35:13.512Z  [store-ai] info GET /servico
+2022-08-02T01:35:25.813Z  [store-ai] info POST /servico - {"_id":"62e87f3574403a3162114d91","comments":{"nome":"Teste comentario","conteudo":"Teste comentario - teste 1"}}
+2022-08-02T01:35:28.513Z  [store-ai] info GET /servico
+2022-08-02T01:43:26.180Z  [store-ai] info GET /servico
+2022-08-02T01:44:21.133Z  [store-ai] info POST /servico - {"descricao":"Consulta","valor":"200","animalId":5}
+2022-08-02T01:44:35.588Z  [store-ai] info GET /servico
+2022-08-02T01:44:54.629Z  [store-ai] info GET /servico
+2022-08-02T01:45:18.889Z  [store-ai] info GET /servico
+2022-08-02T01:49:10.560Z  [store-ai] info GET /servico
+2022-08-02T01:49:35.612Z  [store-ai] info GET /servico
