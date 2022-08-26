@@ -1,0 +1,433 @@
+2022-08-23T22:41:22.945Z  [bookstore-api] error GET  - undefined
+2022-08-23T22:43:52.460Z  [bookstore-api] error POST  - Name, e-mail, password, phone and address are mandatory
+2022-08-23T22:44:32.144Z  [bookstore-api] error POST  - Name, e-mail, password, phone and address are mandatory
+2022-08-23T22:44:54.257Z  [bookstore-api] error POST  - Name, e-mail, password, phone and address are mandatory
+2022-08-23T22:45:21.427Z  [bookstore-api] error POST  - undefined
+2022-08-23T22:48:16.809Z  [bookstore-api] error POST  - relation "clients" does not exist
+2022-08-23T23:04:11.127Z  [bookstore-api] error PUT  - ClientId, name, e-mail, password, phone and address are mandatory
+2022-08-23T23:04:36.773Z  [bookstore-api] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-08-23T23:07:04.382Z  [bookstore-api] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-08-23T23:07:16.992Z  [bookstore-api] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-08-23T23:07:32.507Z  [bookstore-api] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-08-23T23:09:09.418Z  [bookstore-api] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-08-24T01:05:25.918Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T01:05:28.835Z  [bookstore-api] info GET /client - 3
+2022-08-24T01:05:37.671Z  [bookstore-api] info PUT /client - {"clientId":4,"name":"Zé da carroça","email":"ze.98@gmail.com","password":"ze123456789","phone":"16998280838","address":"Taquaritinga - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-24T01:05:47.459Z  [bookstore-api] info POST /client - {"name":"Raul","email":"raugoncalo.98@gmail.com","password":"ra100398ul","phone":"16997108446","address":"Monte Alto - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-24T01:05:56.895Z  [bookstore-api] info POST /client - {"name":"Bianca Ferreira","email":"biancaf.98@gmail.com","password":"bianca28","phone":"16997108446","address":"Monte Alto - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-24T01:06:07.885Z  [bookstore-api] info POST /client - {"name":"Gabriel Jordani","email":"gjordani.98@gmail.com","password":"jordani98","phone":"16997108446","address":"Guariroba - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-24T01:06:20.561Z  [bookstore-api] info POST /client - {"name":"Zé da carroça","email":"ze.98@gmail.com","password":"ze123456789","phone":"16998280838","address":"Taquaritinga - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-24T01:06:43.868Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T01:09:56.330Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T01:10:22.522Z  [bookstore-api] info GET /client - 3
+2022-08-24T01:10:26.201Z  [bookstore-api] info GET /client - 2
+2022-08-24T01:10:30.193Z  [bookstore-api] info GET /client - 5
+2022-08-24T01:10:33.420Z  [bookstore-api] info GET /client - 4
+2022-08-24T01:10:36.874Z  [bookstore-api] info GET /client - 3
+2022-08-24T01:10:45.168Z  [bookstore-api] info POST /client - {"name":"Zé do zezinho","email":"ze.98@gmail.com","password":"ze123456789","phone":"16997108446","address":"Guariroba - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-24T01:10:50.207Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T01:10:58.011Z  [bookstore-api] info DELETE /client - 5
+2022-08-24T01:11:01.137Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T01:11:22.046Z  [bookstore-api] info PUT /client - {"clientId":4,"name":"Zé Paulo","email":"ze.98@gmail.com","password":"ze123456789","phone":"16998280838","address":"Taquaritinga - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-24T01:11:26.276Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T01:11:37.024Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T01:11:47.194Z  [bookstore-api] info GET /author - todos clientes
+2022-08-24T01:15:28.376Z  [bookstore-api] info GET /author - todos clientes
+2022-08-24T01:15:30.856Z  [bookstore-api] info GET /author - 3
+2022-08-24T01:15:33.538Z  [bookstore-api] info DELETE /author - 3
+2022-08-24T01:15:37.337Z  [bookstore-api] error PUT  - AuthorId, name, e-mail, password, phone and address are mandatory
+2022-08-24T01:15:54.414Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T01:17:14.013Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:17:47.468Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:18:21.452Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:19:14.319Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:19:51.756Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:19:58.060Z  [bookstore-api] info GET /author - todos clientes
+2022-08-24T01:20:46.168Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:21:09.725Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:21:12.852Z  [bookstore-api] info GET /author - todos clientes
+2022-08-24T01:21:41.616Z  [bookstore-api] info PUT /author - {"authorId":7,"name":"Zé da carroça","email":"ze.98@gmail.com","phone":"16998280838"}
+2022-08-24T01:21:46.176Z  [bookstore-api] info GET /author - todos clientes
+2022-08-24T01:21:51.364Z  [bookstore-api] info GET /author - 3
+2022-08-24T01:21:54.731Z  [bookstore-api] info GET /author - 7
+2022-08-24T01:21:59.525Z  [bookstore-api] info DELETE /author - 7
+2022-08-24T01:22:05.003Z  [bookstore-api] info GET /author - 7
+2022-08-24T01:22:07.157Z  [bookstore-api] info GET /author - todos clientes
+2022-08-24T01:23:05.832Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T01:23:15.567Z  [bookstore-api] info GET /book - 7
+2022-08-24T01:23:22.506Z  [bookstore-api] info DELETE /book - 7
+2022-08-24T01:23:32.628Z  [bookstore-api] error POST  - Name, value, stock and authorId are mandatory
+2022-08-24T01:23:41.507Z  [bookstore-api] error PUT  - bookId, name, value, stock and authorId are mandatory
+2022-08-24T01:27:04.186Z  [bookstore-api] error PUT  - bookId, name, value, stock and authorId are mandatory
+2022-08-24T01:27:15.674Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:28:26.049Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:28:57.977Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:29:20.776Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:30:20.247Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:30:38.329Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:30:44.940Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T01:31:52.447Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:32:08.978Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:32:34.668Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:33:08.516Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:33:19.041Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:33:33.573Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:33:49.100Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:34:05.760Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T01:35:32.018Z  [bookstore-api] info GET /book - 7
+2022-08-24T01:35:35.567Z  [bookstore-api] info GET /book - 5
+2022-08-24T01:36:00.044Z  [bookstore-api] error POST  - Validation error
+2022-08-24T01:36:02.992Z  [bookstore-api] error POST  - Validation error
+2022-08-24T01:37:26.332Z  [bookstore-api] error POST  - Validation error
+2022-08-24T01:38:08.474Z  [bookstore-api] error POST  - Name, value, stock and authorId are mandatory
+2022-08-24T01:38:17.044Z  [bookstore-api] error POST  - Validation error
+2022-08-24T01:39:39.738Z  [bookstore-api] error POST  - Validation error
+2022-08-24T01:39:42.367Z  [bookstore-api] error POST  - Validation error
+2022-08-24T01:39:48.968Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T01:40:23.940Z  [bookstore-api] error POST  - client is not defined
+2022-08-24T01:40:30.068Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T01:40:38.255Z  [bookstore-api] info DELETE /book - 14
+2022-08-24T01:40:41.409Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T01:41:26.837Z  [bookstore-api] info PUT /book - {"bookId":13,"name":"Jose","value":15.99,"stock":23,"authorId":5}
+2022-08-24T01:41:32.436Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T21:05:29.638Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T21:05:38.900Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T21:07:19.935Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T21:07:32.641Z  [bookstore-api] info GET /sale - 5
+2022-08-24T21:07:39.339Z  [bookstore-api] info DELETE /sale - 14
+2022-08-24T21:08:07.792Z  [bookstore-api] error POST  - Value, date, clientId and bookId are mandatory
+2022-08-24T21:08:17.856Z  [bookstore-api] error PUT  - SaleId, value, date, clientId and bookId are mandatory
+2022-08-24T21:08:22.487Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T21:12:54.270Z  [bookstore-api] error POST  - invalid input syntax for type date: "Invalid date"
+2022-08-24T21:14:36.915Z  [bookstore-api] info POST /sale - {"value":38.55,"date":"2022-08-24","clientId":1,"bookId":1}
+2022-08-24T21:14:50.735Z  [bookstore-api] info POST /sale - {"value":38.55,"date":"2022-08-24","clientId":1,"bookId":5}
+2022-08-24T21:14:56.174Z  [bookstore-api] info POST /sale - {"value":38.55,"date":"2022-08-24","clientId":1,"bookId":6}
+2022-08-24T21:15:02.083Z  [bookstore-api] info POST /sale - {"value":38.55,"date":"2022-08-24","clientId":1,"bookId":8}
+2022-08-24T21:15:05.360Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T21:15:12.105Z  [bookstore-api] info GET /sale - 1
+2022-08-24T21:15:31.510Z  [bookstore-api] info PUT /sale - {"saleId":4,"value":"32.55","date":"2022-08-24","clientId":1,"bookId":8}
+2022-08-24T21:15:43.563Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T21:15:51.603Z  [bookstore-api] info DELETE /sale - 4
+2022-08-24T21:15:54.655Z  [bookstore-api] info DELETE /sale - 3
+2022-08-24T21:15:57.889Z  [bookstore-api] info DELETE /sale - 2
+2022-08-24T21:16:00.472Z  [bookstore-api] info GET /sale - 1
+2022-08-24T21:16:03.294Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T21:30:28.611Z  [bookstore-api] error GET  - invalid input syntax for integer: "info"
+2022-08-24T21:32:17.027Z  [bookstore-api] error GET  - bookInfoServices is not defined
+2022-08-24T21:33:30.723Z  [bookstore-api] error GET  - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+2022-08-24T21:36:46.437Z  [bookstore-api] error GET  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T21:38:47.133Z  [bookstore-api] info GET /book - todos clientes
+2022-08-24T21:38:49.691Z  [bookstore-api] error GET  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T21:39:24.457Z  [bookstore-api] error GET  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T21:49:15.049Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T21:52:44.799Z  [bookstore-api] error POST  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T21:53:43.606Z  [bookstore-api] error POST  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T21:59:49.420Z  [bookstore-api] error POST  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T22:01:04.173Z  [bookstore-api] error POST  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T22:04:27.320Z  [bookstore-api] error POST  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T22:07:37.595Z  [bookstore-api] error POST  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T22:09:58.180Z  [bookstore-api] error POST  - Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-08-24T22:23:03.742Z  [bookstore-api] info POST /procut/info {"bookId":1,"desc":"Publicado pela primeira vez em 1900, Dom Casmurro é o romance mais famoso e polêmico de Machado de Assis. Ambientado no Rio de Janeiro do século XIX, é narrado por seu protagonista: Dom Casmurro, um velho solitário e frustrado que, em virtude de sua “simpatia”, recebe esse apelido de um conhecido.","pages":210,"publisher":"Martin Claret","rating":[]}
+2022-08-24T22:27:10.634Z  [bookstore-api] info POST /procut/info {"bookId":1,"desc":"Publicado pela primeira vez em 1900, Dom Casmurro é o romance mais famoso e polêmico de Machado de Assis. Ambientado no Rio de Janeiro do século XIX, é narrado por seu protagonista: Dom Casmurro, um velho solitário e frustrado que, em virtude de sua “simpatia”, recebe esse apelido de um conhecido.","pages":210,"publisher":"Martin Claret","rating":[]}
+2022-08-24T22:27:49.405Z  [bookstore-api] info POST /procut/info {"bookId":1,"desc":"Publicado pela primeira vez em 1900, Dom Casmurro é o romance mais famoso e polêmico de Machado de Assis. Ambientado no Rio de Janeiro do século XIX, é narrado por seu protagonista: Dom Casmurro, um velho solitário e frustrado que, em virtude de sua “simpatia”, recebe esse apelido de um conhecido.","pages":210,"publisher":"Martin Claret","rating":[]}
+2022-08-24T22:28:19.607Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T22:28:29.617Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T22:31:18.014Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T22:46:46.921Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T22:46:52.146Z  [bookstore-api] info POST /procut/info {"bookId":1,"desc":"Publicado pela primeira vez em 1900, Dom Casmurro é o romance mais famoso e polêmico de Machado de Assis. Ambientado no Rio de Janeiro do século XIX, é narrado por seu protagonista: Dom Casmurro, um velho solitário e frustrado que, em virtude de sua “simpatia”, recebe esse apelido de um conhecido.","pages":210,"publisher":"Martin Claret","rating":[]}
+2022-08-24T22:46:54.816Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T22:47:29.789Z  [bookstore-api] error GET  - invalid input syntax for integer: "6306aa5b8c40f7c5eff20372"
+2022-08-24T22:52:16.857Z  [bookstore-api] error POST  - Book already has information
+2022-08-24T22:53:40.936Z  [bookstore-api] info DELETE /bookInfo - 1
+2022-08-24T22:53:45.037Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T22:53:55.575Z  [bookstore-api] info POST /procut/info {"bookId":1,"desc":"Publicado pela primeira vez em 1900, Dom Casmurro é o romance mais famoso e polêmico de Machado de Assis. Ambientado no Rio de Janeiro do século XIX, é narrado por seu protagonista: Dom Casmurro, um velho solitário e frustrado que, em virtude de sua “simpatia”, recebe esse apelido de um conhecido.","pages":210,"publisher":"Martin Claret","rating":[]}
+2022-08-24T22:54:00.366Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T22:56:36.755Z  [bookstore-api] error PUT  - bookId, name, value, stock and authorId are mandatory
+2022-08-24T22:56:51.172Z  [bookstore-api] info PUT /procut/info {"bookId":1,"desc":"Publicado pela primeira vez em 1900, Dom Casmurro é o romance mais famoso e polêmico de Machado de Assis. Ambientado no Rio de Janeiro do século XIX, é narrado por seu protagonista: Dom Casmurro!!.","pages":210,"publisher":"Martin Claret","rating":[]}
+2022-08-24T22:56:58.654Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T22:59:09.147Z  [bookstore-api] info POST /procut/info {"bookId":2,"desc":"Memórias Póstumas de Brás Cubas é um romance escrito por Machado de Assis, desenvolvido em princípio como folhetim, de março a dezembro de 1880, na Revista Brasileira, para, no ano seguinte, ser publicado como livro, pela então Tipografia Nacional como Memorias Posthumas de Braz Cubas.","pages":320,"publisher":"Tipografia Nacional","rating":[]}
+2022-08-24T22:59:12.589Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:00:37.816Z  [bookstore-api] info POST /procut/info {"bookId":3,"desc":"A Hora da Estrela é um romance literário da escritora brasileira Clarice Lispector. O romance narra a história da datilógrafa alagoana, Macabéa, que migra para o Rio de Janeiro, tendo sua rotina narrada por um escritor fictício chamado Rodrigo S.M.","pages":90,"publisher":"Rocco","rating":[]}
+2022-08-24T23:00:41.120Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:12:34.813Z  [bookstore-api] error POST  - getBookInfo is not defined
+2022-08-24T23:13:57.659Z  [bookstore-api] error GET  - invalid input syntax for integer: "info"
+2022-08-24T23:14:10.029Z  [bookstore-api] error GET  - invalid input syntax for integer: "info"
+2022-08-24T23:16:08.142Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:16:16.555Z  [bookstore-api] info POST /book/rating
+2022-08-24T23:16:20.612Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:16:54.346Z  [bookstore-api] info POST /book/rating
+2022-08-24T23:16:58.721Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:17:36.805Z  [bookstore-api] info POST /book/rating
+2022-08-24T23:17:43.372Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:31:25.714Z  [bookstore-api] info POST /book/rating
+2022-08-24T23:31:43.148Z  [bookstore-api] info POST /book/rating
+2022-08-24T23:31:50.108Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:34:54.743Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:35:11.413Z  [bookstore-api] error DELETE  - getBookInfo is not defined
+2022-08-24T23:35:42.855Z  [bookstore-api] info DELETE /book/1/rating/3
+2022-08-24T23:35:44.882Z  [bookstore-api] info DELETE /book/1/rating/3
+2022-08-24T23:35:49.832Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:36:01.530Z  [bookstore-api] info DELETE /book/1/rating/3
+2022-08-24T23:36:07.252Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-24T23:37:34.522Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T23:37:37.846Z  [bookstore-api] info GET /sale - 1
+2022-08-24T23:37:46.479Z  [bookstore-api] info POST /sale - {"value":38.55,"date":"2022-08-24","clientId":1,"bookId":8}
+2022-08-24T23:37:58.426Z  [bookstore-api] info POST /sale - {"value":18.55,"date":"2022-08-24","clientId":1,"bookId":13}
+2022-08-24T23:38:04.674Z  [bookstore-api] info POST /sale - {"value":18.55,"date":"2022-08-24","clientId":2,"bookId":13}
+2022-08-24T23:38:08.743Z  [bookstore-api] info POST /sale - {"value":18.55,"date":"2022-08-24","clientId":3,"bookId":13}
+2022-08-24T23:38:15.166Z  [bookstore-api] info POST /sale - {"value":18.55,"date":"2022-08-24","clientId":3,"bookId":11}
+2022-08-24T23:38:20.654Z  [bookstore-api] info POST /sale - {"value":18.55,"date":"2022-08-24","clientId":3,"bookId":9}
+2022-08-24T23:38:24.824Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T23:44:21.457Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T23:52:11.195Z  [bookstore-api] error DELETE  - saleRepositories.readAllSalesByClientId is not a function
+2022-08-24T23:53:01.192Z  [bookstore-api] error DELETE  - saleRepositories.readAllSalesByClientId is not a function
+2022-08-24T23:53:57.188Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:54:05.643Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T23:54:14.613Z  [bookstore-api] info GET /sale - todos salees
+2022-08-24T23:54:33.390Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:54:35.800Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:55:31.436Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T23:55:34.603Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:55:37.621Z  [bookstore-api] info GET /client - 3
+2022-08-24T23:55:45.593Z  [bookstore-api] info POST /client - {"name":"Zé do zezinho","email":"ze.98@gmail.com","password":"ze123456789","phone":"16997108446","address":"Guariroba - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-24T23:55:50.344Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:56:11.789Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:56:42.935Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:57:08.663Z  [bookstore-api] info GET /client - todos clientes
+2022-08-24T23:57:18.534Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:57:56.054Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-24T23:58:53.022Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-25T00:01:05.518Z  [bookstore-api] info DELETE /client - 5
+2022-08-25T00:01:16.287Z  [bookstore-api] error DELETE  - Client has sales
+2022-08-25T00:01:54.052Z  [bookstore-api] info GET /client - todos clientes
+2022-08-25T00:02:39.209Z  [bookstore-api] info GET /client - 3
+2022-08-25T00:03:12.886Z  [bookstore-api] info GET /client - 3
+2022-08-25T00:03:54.828Z  [bookstore-api] error POST  - client is not defined
+2022-08-25T00:04:39.159Z  [bookstore-api] info PUT /author - {"authorId":8,"name":"Zé Jose","email":"zé.esq@gmail.com","phone":"165156456444"}
+2022-08-25T00:12:42.707Z  [bookstore-api] info DELETE /author - 7
+2022-08-25T00:12:47.050Z  [bookstore-api] info DELETE /author - 1
+2022-08-25T00:15:33.965Z  [bookstore-api] error DELETE  - Author has books!
+2022-08-25T00:15:39.599Z  [bookstore-api] info GET /author - todos clientes
+2022-08-25T00:15:47.823Z  [bookstore-api] info DELETE /author - 8
+2022-08-25T00:15:51.693Z  [bookstore-api] info GET /author - todos clientes
+2022-08-25T00:22:38.482Z  [bookstore-api] error PUT  - Name and AuthorId cannot be changed!
+2022-08-25T00:26:51.902Z  [bookstore-api] error POST  - client is not defined
+2022-08-25T00:27:05.021Z  [bookstore-api] error PUT  - Name and AuthorId cannot be changed!
+2022-08-25T00:27:22.961Z  [bookstore-api] info PUT /book - {"bookId":15,"value":5000,"stock":95}
+2022-08-25T00:27:35.277Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:27:51.508Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:27:56.236Z  [bookstore-api] info GET /book - 13
+2022-08-25T00:27:59.538Z  [bookstore-api] info GET /book - 15
+2022-08-25T00:28:17.620Z  [bookstore-api] error DELETE  - Book cannot be deleted as it has sales!
+2022-08-25T00:28:22.351Z  [bookstore-api] info DELETE /book - 15
+2022-08-25T00:28:27.758Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:29:29.274Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:33:43.380Z  [bookstore-api] error GET  - bookInfoRepositories is not a function
+2022-08-25T00:34:01.978Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:34:59.978Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:35:40.290Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:36:05.801Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:37:37.747Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:41:20.046Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:41:44.875Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:42:37.023Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:44:39.858Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:45:08.052Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:45:35.123Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:45:50.358Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:46:03.892Z  [bookstore-api] info GET /book - 1
+2022-08-25T00:47:54.783Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-25T00:48:03.543Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:55:08.728Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:55:42.562Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:56:43.107Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:56:55.841Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:57:07.481Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:57:22.825Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T00:58:20.922Z  [bookstore-api] error POST  - Book already has information
+2022-08-25T00:58:41.714Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-25T00:59:49.502Z  [bookstore-api] info POST /book/rating
+2022-08-25T00:59:55.129Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-25T01:09:44.436Z  [bookstore-api] error POST  - Rating e bookId são obrigatórios
+2022-08-25T01:11:56.042Z  [bookstore-api] error POST  - bookId is not defined
+2022-08-25T01:12:37.872Z  [bookstore-api] info POST /book/rating
+2022-08-25T01:12:41.967Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-25T01:12:59.203Z  [bookstore-api] info DELETE /book/1/rating/3
+2022-08-25T01:13:00.698Z  [bookstore-api] info DELETE /book/1/rating/3
+2022-08-25T01:13:28.546Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-25T01:19:19.715Z  [bookstore-api] info GET /book - 1
+2022-08-25T01:20:48.365Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":3,"bookId":9}
+2022-08-25T01:21:41.704Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":3,"bookId":9}
+2022-08-25T01:22:02.911Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":3,"bookId":9}
+2022-08-25T01:22:13.784Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T01:22:27.033Z  [bookstore-api] info DELETE /sale - 1
+2022-08-25T01:22:31.707Z  [bookstore-api] info DELETE /sale - 5
+2022-08-25T01:22:36.463Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T01:22:47.061Z  [bookstore-api] info DELETE /sale - 6
+2022-08-25T01:22:50.441Z  [bookstore-api] info DELETE /sale - 7
+2022-08-25T01:22:53.666Z  [bookstore-api] info DELETE /sale - 8
+2022-08-25T01:22:56.542Z  [bookstore-api] info DELETE /sale - 9
+2022-08-25T01:23:00.377Z  [bookstore-api] info DELETE /sale - 10
+2022-08-25T01:23:03.288Z  [bookstore-api] info DELETE /sale - 11
+2022-08-25T01:23:08.536Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T01:29:44.972Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T01:29:58.303Z  [bookstore-api] error POST  - Cannot access 'sale' before initialization
+2022-08-25T01:31:00.229Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":3,"bookId":1}
+2022-08-25T01:31:07.616Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T01:31:57.290Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T01:32:22.482Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":3,"bookId":1}
+2022-08-25T01:32:32.485Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T01:32:53.938Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":3,"bookId":1}
+2022-08-25T01:34:25.741Z  [bookstore-api] error GET  - Cannot read properties of null (reading 'dataValues')
+2022-08-25T01:35:46.832Z  [bookstore-api] error GET  - Argument passed to findByPk is invalid: [object Object]
+2022-08-25T01:36:30.578Z  [bookstore-api] error GET  - Argument passed to findByPk is invalid: [object Object]
+2022-08-25T01:37:29.302Z  [bookstore-api] info GET /book - 100
+2022-08-25T01:38:25.513Z  [bookstore-api] info GET /book - 100
+2022-08-25T01:39:32.073Z  [bookstore-api] error POST  - Book does not exist!
+2022-08-25T01:50:37.825Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T01:51:14.697Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T01:51:18.268Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T01:51:35.500Z  [bookstore-api] error POST  - Out of stock book!
+2022-08-25T01:51:41.614Z  [bookstore-api] error POST  - Out of stock book!
+2022-08-25T01:51:48.930Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T01:52:34.126Z  [bookstore-api] error POST  - Out of stock book!
+2022-08-25T01:53:18.756Z  [bookstore-api] error POST  - Out of stock book!
+2022-08-25T01:54:32.872Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T01:55:01.941Z  [bookstore-api] info GET /book - 1
+2022-08-25T01:55:47.773Z  [bookstore-api] info GET /book - 1
+2022-08-25T01:56:25.116Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T01:56:33.313Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T01:58:33.889Z  [bookstore-api] info GET /book - 1
+2022-08-25T02:00:11.983Z  [bookstore-api] info GET /book - 1
+2022-08-25T02:01:09.327Z  [bookstore-api] info GET /book - 1
+2022-08-25T02:02:04.937Z  [bookstore-api] info GET /book - 1
+2022-08-25T02:02:14.824Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-25T02:02:56.446Z  [bookstore-api] info GET /book - 1
+2022-08-25T02:03:12.269Z  [bookstore-api] info GET /book - 1
+2022-08-25T02:04:07.070Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T02:04:11.838Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T02:04:15.589Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T02:04:21.561Z  [bookstore-api] error POST  - Out of stock book!
+2022-08-25T02:05:10.074Z  [bookstore-api] error POST  - Cannot read properties of undefined (reading 'stock')
+2022-08-25T21:12:25.262Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:12:37.166Z  [bookstore-api] info GET /book - todos clientes
+2022-08-25T21:12:50.437Z  [bookstore-api] info GET /client - todos clientes
+2022-08-25T21:13:02.324Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:13:06.394Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:13:20.969Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:13:38.916Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:14:01.363Z  [bookstore-api] error POST  - Cannot read properties of undefined (reading 'stock')
+2022-08-25T21:14:36.454Z  [bookstore-api] error POST  - Cannot read properties of undefined (reading 'stock')
+2022-08-25T21:15:08.278Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:17:41.648Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:18:30.577Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:18:45.961Z  [bookstore-api] error GET  - Book.finfindAll is not a function
+2022-08-25T21:19:01.307Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:19:18.081Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:19:18.674Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:19:18.681Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:21:17.233Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:21:23.928Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:22:35.224Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:22:37.881Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:22:57.787Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:23:14.943Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:24:04.372Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:24:46.318Z  [bookstore-api] info GET /book - 1
+2022-08-25T21:25:30.088Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:25:34.353Z  [bookstore-api] error POST  - Cannot read properties of undefined (reading 'stock')
+2022-08-25T21:25:36.938Z  [bookstore-api] error POST  - Cannot read properties of undefined (reading 'stock')
+2022-08-25T21:25:53.878Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":2,"bookId":1}
+2022-08-25T21:26:00.472Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":2,"bookId":5}
+2022-08-25T21:26:10.519Z  [bookstore-api] error POST  - insert or update on table "sales" violates foreign key constraint "fk_clients"
+2022-08-25T21:27:58.517Z  [bookstore-api] info GET /client - 8
+2022-08-25T21:28:34.656Z  [bookstore-api] error POST  - parsetInt is not defined
+2022-08-25T21:28:50.307Z  [bookstore-api] error POST  - Client does not exist!
+2022-08-25T21:29:16.100Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":1,"bookId":8}
+2022-08-25T21:29:25.888Z  [bookstore-api] error POST  - Book does not exist!
+2022-08-25T21:30:01.311Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:30:06.519Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:30:17.016Z  [bookstore-api] info POST /sale - {"date":"2022-08-24","clientId":1,"bookId":2}
+2022-08-25T21:30:25.559Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:31:11.328Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:31:16.529Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:31:37.933Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:31:40.446Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:31:52.295Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:32:03.165Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:32:17.850Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:32:28.299Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:32:34.025Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:32:44.446Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:35:35.953Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:35:40.747Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:39:04.650Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:39:15.531Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:39:31.941Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T21:40:02.735Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T22:01:53.286Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T22:01:56.218Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T22:01:58.245Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T22:03:14.827Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T22:03:21.349Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T22:12:07.496Z  [bookstore-api] info GET /client - todos clientes
+2022-08-25T22:16:56.464Z  [bookstore-api] info GET /client - todos clientes
+2022-08-25T23:20:07.840Z  [bookstore-api] info GET /client - todos clientes
+2022-08-25T23:25:28.859Z  [bookstore-api] info GET /client - todos clientes
+2022-08-25T23:27:46.062Z  [bookstore-api] info GET /author - todos clientes
+2022-08-25T23:32:21.177Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:32:25.504Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:32:55.755Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:33:03.522Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:33:18.745Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:33:21.666Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:33:41.408Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:33:51.379Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:44:28.743Z  [bookstore-api] info GET /author - todos clientes
+2022-08-25T23:44:40.754Z  [bookstore-api] info GET /author - 7
+2022-08-25T23:44:45.622Z  [bookstore-api] info GET /author - 1
+2022-08-25T23:49:15.941Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:49:22.691Z  [bookstore-api] info GET /sale - todos salees
+2022-08-25T23:49:30.068Z  [bookstore-api] info GET /sale - todos salees
+2022-08-26T00:11:53.732Z  [bookstore-api] error GET  - WHERE parameter "email" has invalid "undefined" value
+2022-08-26T00:12:56.015Z  [bookstore-api] error GET  - Unauthorized
+2022-08-26T00:13:00.962Z  [bookstore-api] error GET  - Unauthorized
+2022-08-26T00:13:04.282Z  [bookstore-api] info GET /sale - todos salees
+2022-08-26T00:13:12.031Z  [bookstore-api] error GET  - Unauthorized
+2022-08-26T00:38:25.401Z  [bookstore-api] error PUT  - Unauthorized!
+2022-08-26T00:39:19.651Z  [bookstore-api] info PUT /client - {"clientId":1,"name":"Raul silva","email":"raulpoyer@gmail.com","password":"R@100398ul","phone":"16997108446","address":"Monte Alto - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-26T00:39:59.086Z  [bookstore-api] info PUT /client - {"clientId":1,"name":"Raul silva","email":"raulpoyer@gmail.com","password":"ra100398ul","phone":"16997108446","address":"Monte Alto - SP, Jardim paulista 2 - Rua Goias, 384"}
+2022-08-26T00:59:09.385Z  [bookstore-api] info GET /client - todos clientes
+2022-08-26T01:00:00.063Z  [bookstore-api] info GET /client - 8
+2022-08-26T01:00:03.557Z  [bookstore-api] info GET /client - 1
+2022-08-26T01:00:06.879Z  [bookstore-api] info GET /client - 2
+2022-08-26T01:00:59.424Z  [bookstore-api] info GET /book - todos clientes
+2022-08-26T01:01:49.639Z  [bookstore-api] info POST /procut/info {"bookId":1,"desc":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","pages":250,"publisher":"Editora IGTI","rating":[]}
+2022-08-26T01:01:57.946Z  [bookstore-api] info POST /procut/info {"bookId":2,"desc":"O livro passa uma visão geral sobre o JavaScript moderno, quais as principais estruturas e exemplos de utilização","pages":350,"publisher":"Editora IGTI","rating":[]}
+2022-08-26T01:02:06.086Z  [bookstore-api] info POST /procut/info {"bookId":3,"desc":"O livro demonstra na prática a utilização do Express em conjunto com o Node.js para criação de APIs","pages":150,"publisher":"Editora IGTI","rating":[]}
+2022-08-26T01:02:16.262Z  [bookstore-api] info POST /procut/info {"bookId":4,"desc":"O livro aborda na teoria e na prática os bancos de dados relacionais, desde a sua motivação até a construção e consulta de registros","pages":450,"publisher":"Editora IGTI","rating":[]}
+2022-08-26T01:02:24.258Z  [bookstore-api] info POST /procut/info {"bookId":5,"desc":"O livro faz uma introdução aos bancos de dados NoSQL, em especial os bancos de dados orientados a documentos","pages":100,"publisher":"Editora IGTI","rating":[]}
+2022-08-26T01:02:34.285Z  [bookstore-api] info POST /procut/info {"bookId":6,"desc":"O livro aborda na teoria a importância e utilização da autorização e autenticação em APIs com Node.js e Express","pages":90,"publisher":"Editora IGTI","rating":[]}
+2022-08-26T01:02:43.998Z  [bookstore-api] info GET /book - todos clientes
+2022-08-26T01:02:49.713Z  [bookstore-api] info GET /book - todos clientes
+2022-08-26T01:03:21.855Z  [bookstore-api] info GET /book/info - todos booksInfo
+2022-08-26T01:03:41.560Z  [bookstore-api] info GET /book - todos clientes
+2022-08-26T01:04:37.161Z  [bookstore-api] info GET /book - todos clientes
+2022-08-26T01:05:16.954Z  [bookstore-api] info GET /book - 1
+2022-08-26T01:07:54.592Z  [bookstore-api] error GET  - Cannot read properties of null (reading 'clientId')
+2022-08-26T01:09:07.242Z  [bookstore-api] error GET  - Cannot read properties of null (reading 'clientId')
+2022-08-26T01:12:31.703Z  [bookstore-api] error GET  - Cannot read properties of null (reading 'clientId')
+2022-08-26T01:12:45.220Z  [bookstore-api] error GET  - Cannot read properties of null (reading 'clientId')
+2022-08-26T01:13:47.833Z  [bookstore-api] info GET /sale - todos salees
+2022-08-26T01:13:57.560Z  [bookstore-api] error GET  - Cannot read properties of null (reading 'clientId')
+2022-08-26T01:23:32.113Z  [bookstore-api] info GET /sale - todos salees
+2022-08-26T01:27:03.540Z  [bookstore-api] info POST /sale - {"date":"2000-01-01","clientId":2,"bookId":2}
+2022-08-26T01:28:01.249Z  [bookstore-api] error GET  - Unauthorized
+2022-08-26T01:28:05.192Z  [bookstore-api] info GET /sale - todos salees
+2022-08-26T01:29:21.338Z  [bookstore-api] info GET /sale - todos salees
+2022-08-26T01:29:47.059Z  [bookstore-api] info GET /sale - todos salees
+2022-08-26T01:31:12.043Z  [bookstore-api] info POST /sale - {"date":"2000-01-01","clientId":2,"bookId":4}
+2022-08-26T01:31:52.041Z  [bookstore-api] info GET /sale - todos salees
+2022-08-26T01:32:38.169Z  [bookstore-api] info GET /client - 3
+2022-08-26T01:33:22.088Z  [bookstore-api] info GET /book - 1
+2022-08-26T01:34:08.296Z  [bookstore-api] info GET /book - todos clientes
